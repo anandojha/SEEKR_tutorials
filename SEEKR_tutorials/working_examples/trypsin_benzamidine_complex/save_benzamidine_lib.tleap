@@ -1,0 +1,5 @@
+source leaprc.gaff
+BEN = loadmol2 benzamidine.mol2
+saveoff BEN benzamidine.lib
+quit
+

@@ -1,0 +1,18 @@
+source leaprc.protein.ff14SB
+source leaprc.gaff
+source leaprc.water.tip4pew
+set default PBRadii mbondi2
+loadoff benzamidine.lib
+loadamberparams benzamidine.frcmod
+WAT = T4E
+HOH = T4E
+loadAmberParams frcmod.ionsjc_tip4pew
+loadAmberParams frcmod.tip4pew
+receptor_ligand_complex = loadpdb hostguest.pdb
+solvateoct receptor_ligand_complex TIP4PEWBOX 8
+addIons2 receptor_ligand_complex Cl- 7
+saveamberparm receptor_ligand_complex trypsin_benzamidine.prmtop trypsin_benzamidine.inpcrd
+savepdb receptor_ligand_complex trypsin_benzamidine.pdb
+check receptor_ligand_complex
+charge receptor_ligand_complex
+quit
