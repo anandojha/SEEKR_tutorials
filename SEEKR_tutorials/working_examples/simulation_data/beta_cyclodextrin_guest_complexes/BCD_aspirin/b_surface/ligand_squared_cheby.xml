@@ -1,0 +1,181 @@
+<roottag>
+  <total_charge> 2.84916 </total_charge>
+  <centroid>
+    <x>-0.811633</x> <y>-0.576581</y> <z>-0.142058</z>
+  </centroid>
+  <o_box>
+    <pbox>
+      <points>
+        <n> 21 </n>
+          <point type="permanent">
+          <pos>
+            <x>0.182</x> <y>0.379</y> <z>0.901</z>
+          </pos>
+          <q>
+            0.0541028
+          </q>
+        </point>
+          <point type="permanent">
+          <pos>
+            <x>-1.074</x> <y>-0.291</y> <z>1.294</z>
+          </pos>
+          <q>
+            0.47541
+          </q>
+        </point>
+          <point type="permanent">
+          <pos>
+            <x>-2.191</x> <y>-0.112</y> <z>0.922</z>
+          </pos>
+          <q>
+            0.230112
+          </q>
+        </point>
+          <point type="permanent">
+          <pos>
+            <x>-0.84</x> <y>-1.161</y> <z>2.296</z>
+          </pos>
+          <q>
+            0.322965
+          </q>
+        </point>
+          <point type="permanent">
+          <pos>
+            <x>-1.753</x> <y>-1.365</y> <z>2.562</z>
+          </pos>
+          <q>
+            0.160881
+          </q>
+        </point>
+          <point type="permanent">
+          <pos>
+            <x>0.397</x> <y>0.675</y> <z>-0.438</z>
+          </pos>
+          <q>
+            0.14055
+          </q>
+        </point>
+          <point type="permanent">
+          <pos>
+            <x>-0.519</x> <y>0.376</y> <z>-1.37</z>
+          </pos>
+          <q>
+            0.2493
+          </q>
+        </point>
+          <point type="permanent">
+          <pos>
+            <x>-0.785</x> <y>-0.918</y> <z>-1.706</z>
+          </pos>
+          <q>
+            0.615126
+          </q>
+        </point>
+          <point type="permanent">
+          <pos>
+            <x>-1.716</x> <y>-0.985</y> <z>-2.895</z>
+          </pos>
+          <q>
+            0.170404
+          </q>
+        </point>
+          <point type="permanent">
+          <pos>
+            <x>-2.731</x> <y>-1.034</y> <z>-2.483</z>
+          </pos>
+          <q>
+            0.0144962
+          </q>
+        </point>
+          <point type="permanent">
+          <pos>
+            <x>-1.421</x> <y>-1.902</y> <z>-3.421</z>
+          </pos>
+          <q>
+            0.0188513
+          </q>
+        </point>
+          <point type="permanent">
+          <pos>
+            <x>-1.498</x> <y>-0.126</y> <z>-3.541</z>
+          </pos>
+          <q>
+            0.0177956
+          </q>
+        </point>
+          <point type="permanent">
+          <pos>
+            <x>-0.26</x> <y>-1.937</y> <z>-1.19</z>
+          </pos>
+          <q>
+            0.249001
+          </q>
+        </point>
+          <point type="permanent">
+          <pos>
+            <x>1.586</x> <y>1.264</y> <z>-0.844</z>
+          </pos>
+          <q>
+            0.0583222
+          </q>
+        </point>
+          <point type="permanent">
+          <pos>
+            <x>1.728</x> <y>1.465</y> <z>-1.902</z>
+          </pos>
+          <q>
+            0.0260177
+          </q>
+        </point>
+          <point type="permanent">
+          <pos>
+            <x>2.687</x> <y>1.504</y> <z>0.009</z>
+          </pos>
+          <q>
+            0.00034225
+          </q>
+        </point>
+          <point type="permanent">
+          <pos>
+            <x>3.484</x> <y>2.205</y> <z>-0.221</z>
+          </pos>
+          <q>
+            0.00872356
+          </q>
+        </point>
+          <point type="permanent">
+          <pos>
+            <x>2.415</x> <y>1.29</y> <z>1.328</z>
+          </pos>
+          <q>
+            0.0153264
+          </q>
+        </point>
+          <point type="permanent">
+          <pos>
+            <x>3.231</x> <y>1.587</y> <z>1.981</z>
+          </pos>
+          <q>
+            0.0108576
+          </q>
+        </point>
+          <point type="permanent">
+          <pos>
+            <x>1.207</x> <y>0.744</y> <z>1.819</z>
+          </pos>
+          <q>
+            0.00059049
+          </q>
+        </point>
+          <point type="permanent">
+          <pos>
+            <x>1.086</x> <y>0.572</y> <z>2.885</z>
+          </pos>
+          <q>
+            0.00998001
+          </q>
+        </point>
+      </points>
+    </pbox>
+  </o_box>
+</roottag>

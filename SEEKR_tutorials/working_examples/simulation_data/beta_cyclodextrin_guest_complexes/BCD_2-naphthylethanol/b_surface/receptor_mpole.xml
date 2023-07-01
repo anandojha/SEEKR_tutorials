@@ -1,0 +1,30 @@
+<!-- Output of mpole_grid_fit -->
+<multipole_field>
+  <center>
+    <x> 0.3425 </x>
+    <y> 0.107 </y>
+    <z> -0.292 </z>
+  </center>
+  <charge> 2.11654e-06 </charge>
+  <zeroth_order_pole> 7.50293e-06 </zeroth_order_pole>
+  <first_order_poles>
+    <x> -3.21833 </x>
+    <y> 5.13023 </y>
+    <z> 4.6481 </z>
+  </first_order_poles>
+  <second_order_poles>
+    <qm2> 3.83271 </qm2>
+    <qm1> 4.87422 </qm1>
+    <q0> -6.35274 </q0>
+    <q1> -4.55695 </q1>
+    <q2> 8.44552 </q2>
+  </second_order_poles>
+  <absolute_error> 0.000175959 </absolute_error>
+  <relative_error> 0.038298 </relative_error>
+  <rms_energy> 0.00459447 </rms_energy>
+  <debye> 1.79769e+308 </debye>
+  <vacuum_permittivity> 0.000142 </vacuum_permittivity>
+  <solvent_dielectric> 78 </solvent_dielectric>
+  <fit_radius> 48 </fit_radius>
+  <smooth_radius> 51.9375 </smooth_radius>
+</multipole_field>

@@ -1,0 +1,27 @@
+read
+  mol xml trypsin.xml
+end
+
+elec
+  mg-manual
+  dime 65 65 65 
+  glen 128 128 128 
+  gcent 2.446 8.8275 23.281 
+  mol 1
+  lpbe
+  bcfl sdh
+
+  ion charge 2 conc 0.02 radius 1.14
+  ion charge -1 conc 0.1 radius 1.67
+  ion charge 1 conc 0.06 radius 4
+
+  pdie 4
+  sdie 78
+  srfm smol
+  chgm spl2
+  sdens 10.0
+  srad 1.5
+  temp 298
+  write pot dx receptor0
+end
+quit

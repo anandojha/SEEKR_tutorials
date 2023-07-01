@@ -1,0 +1,26 @@
+<top>
+  <item>
+    <file> receptor_ligand_solvent.xml </file>
+    <tags> solvent_radius </tags>
+    <value> 1.5 </value>
+    <time> 1623365211 </time>
+  </item>
+  <item>
+    <file> receptor_ligand_solvent.xml </file>
+    <tags> desolvation_parameter </tags>
+    <value> 1 </value>
+    <time> 1623365211 </time>
+  </item>
+  <item>
+    <file> receptor_ligand_solvent.xml </file>
+    <tags> debye_length </tags>
+    <value> 1.79769e+308 </value>
+    <time> 1623365211 </time>
+  </item>
+  <item>
+    <file> receptor_ligand_solvent.xml </file>
+    <tags> dielectric </tags>
+    <value> 78 </value>
+    <time> 1623365211 </time>
+  </item>
+</top>

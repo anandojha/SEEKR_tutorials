@@ -1,0 +1,81 @@
+<reduced_surface>
+  <n-spheres> 25 </n-spheres>
+  <probe_radius> 1.500000 </probe_radius>
+  <trios>
+    <n> 52 </n>
+      <trio>16 8 12 </trio>
+      <trio>5 2 1 </trio>
+      <trio>25 16 14 </trio>
+      <trio>10 5 4 </trio>
+      <trio>24 23 2 </trio>
+      <trio>25 17 19 </trio>
+      <trio>24 3 23 </trio>
+      <trio>8 5 6 </trio>
+      <trio>5 3 2 </trio>
+      <trio>12 8 9 </trio>
+      <trio>5 1 4 </trio>
+      <trio>8 3 5 </trio>
+      <trio>24 22 21 </trio>
+      <trio>11 5 10 </trio>
+      <trio>13 12 9 </trio>
+      <trio>25 2 8 </trio>
+      <trio>25 16 17 </trio>
+      <trio>13 9 10 </trio>
+      <trio>23 3 2 </trio>
+      <trio>21 19 17 </trio>
+      <trio>11 7 5 </trio>
+      <trio>12 10 1 </trio>
+      <trio>7 6 5 </trio>
+      <trio>23 21 22 </trio>
+      <trio>25 14 1 </trio>
+      <trio>18 15 17 </trio>
+      <trio>24 23 22 </trio>
+      <trio>25 23 16 </trio>
+      <trio>25 19 23 </trio>
+      <trio>10 9 6 </trio>
+      <trio>16 12 14 </trio>
+      <trio>17 15 14 </trio>
+      <trio>23 21 16 </trio>
+      <trio>24 2 3 </trio>
+      <trio>18 14 15 </trio>
+      <trio>10 4 1 </trio>
+      <trio>11 10 7 </trio>
+      <trio>25 8 16 </trio>
+      <trio>10 6 7 </trio>
+      <trio>18 17 14 </trio>
+      <trio>21 17 16 </trio>
+      <trio>22 19 20 </trio>
+      <trio>13 10 12 </trio>
+      <trio>8 2 3 </trio>
+      <trio>22 21 19 </trio>
+      <trio>9 8 6 </trio>
+      <trio>21 20 19 </trio>
+      <trio>14 12 1 </trio>
+      <trio>22 20 21 </trio>
+      <trio>24 21 23 </trio>
+      <trio>25 1 2 </trio>
+      <trio>23 19 21 </trio>
+  </trios>
+  <spheres>
+    <surface>
+      <n> 25 </n>
+      <indices>
+        25 24 23 22 21 20 19 18 17 16 
+        15 14 13 12 11 10 9 8 7 6 
+        5 4 3 2 1 
+      </indices>
+    </surface>
+    <danglers>
+      <n> 0 </n>
+      <indices>
+
+      </indices>
+    </danglers>
+    <insiders>
+      <n> 1 </n>
+      <indices>
+        26 
+      </indices>
+    </insiders>
+  </spheres>
+</reduced_surface>

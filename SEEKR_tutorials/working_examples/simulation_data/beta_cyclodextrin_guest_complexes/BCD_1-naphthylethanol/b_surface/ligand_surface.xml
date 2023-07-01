@@ -1,0 +1,79 @@
+<reduced_surface>
+  <n-spheres> 25 </n-spheres>
+  <probe_radius> 1.500000 </probe_radius>
+  <trios>
+    <n> 50 </n>
+      <trio>4 1 2 </trio>
+      <trio>16 1 5 </trio>
+      <trio>25 17 19 </trio>
+      <trio>24 20 23 </trio>
+      <trio>11 7 10 </trio>
+      <trio>11 8 7 </trio>
+      <trio>17 12 16 </trio>
+      <trio>25 15 14 </trio>
+      <trio>25 22 23 </trio>
+      <trio>16 5 9 </trio>
+      <trio>20 4 3 </trio>
+      <trio>17 16 14 </trio>
+      <trio>4 3 1 </trio>
+      <trio>25 14 17 </trio>
+      <trio>19 17 16 </trio>
+      <trio>14 10 12 </trio>
+      <trio>16 10 9 </trio>
+      <trio>12 10 11 </trio>
+      <trio>19 16 3 </trio>
+      <trio>13 11 10 </trio>
+      <trio>24 23 22 </trio>
+      <trio>9 5 7 </trio>
+      <trio>23 21 14 </trio>
+      <trio>3 2 1 </trio>
+      <trio>16 3 1 </trio>
+      <trio>14 9 10 </trio>
+      <trio>24 22 19 </trio>
+      <trio>9 7 3 </trio>
+      <trio>17 14 12 </trio>
+      <trio>19 3 4 </trio>
+      <trio>4 2 3 </trio>
+      <trio>16 9 14 </trio>
+      <trio>21 17 14 </trio>
+      <trio>10 7 8 </trio>
+      <trio>21 20 16 </trio>
+      <trio>25 23 15 </trio>
+      <trio>7 5 1 </trio>
+      <trio>20 3 16 </trio>
+      <trio>23 20 21 </trio>
+      <trio>25 19 22 </trio>
+      <trio>23 14 15 </trio>
+      <trio>20 19 4 </trio>
+      <trio>13 10 12 </trio>
+      <trio>16 9 3 </trio>
+      <trio>11 10 8 </trio>
+      <trio>16 12 10 </trio>
+      <trio>24 19 20 </trio>
+      <trio>7 1 3 </trio>
+      <trio>21 16 17 </trio>
+      <trio>13 12 11 </trio>
+  </trios>
+  <spheres>
+    <surface>
+      <n> 23 </n>
+      <indices>
+        25 24 23 22 21 20 19 17 16 15 
+        14 13 12 11 10 9 8 7 5 4 
+        3 2 1 
+      </indices>
+    </surface>
+    <danglers>
+      <n> 1 </n>
+      <indices>
+        6 
+      </indices>
+    </danglers>
+    <insiders>
+      <n> 1 </n>
+      <indices>
+        26 
+      </indices>
+    </insiders>
+  </spheres>
+</reduced_surface>

@@ -1,0 +1,26 @@
+read
+  mol xml hostguest_ligand.xml
+end
+
+elec
+  mg-manual
+  dime 21 13 13 
+  glen 80 48 48 
+  gcent -0.0875 0.239 0.167 
+  mol 1
+  lpbe
+  bcfl sdh
+
+  ion charge -2 conc 0 radius 4
+  ion charge 2 conc 0 radius 1
+
+  pdie 4
+  sdie 78
+  srfm smol
+  chgm spl2
+  sdens 10.0
+  srad 1.5
+  temp 293.15
+  write pot dx ligand0
+end
+quit

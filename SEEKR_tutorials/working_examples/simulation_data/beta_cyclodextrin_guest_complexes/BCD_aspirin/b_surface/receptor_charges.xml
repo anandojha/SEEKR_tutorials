@@ -1,0 +1,1032 @@
+<root>
+  <point>
+    <residue> MGO </residue>
+    <number> 1 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -4.959 </x> <y> -3.423 </y> <z> -0.043 </z>
+    <charge> 0.0427 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 2 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -6.048 </x> <y> -3.31 </y> <z> -0.188 </z>
+    <charge> 0.161 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 3 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -4.144 </x> <y> -2.424 </y> <z> -0.67 </z>
+    <charge> -0.3229 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 4 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -4.711 </x> <y> -3.535 </y> <z> 1.401 </z>
+    <charge> 0.1376 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 5 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -5.286 </x> <y> -4.373 </y> <z> 1.8 </z>
+    <charge> 0.065 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 6 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -5.202 </x> <y> -2.379 </y> <z> 2.123 </z>
+    <charge> -0.6346 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 7 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -6.156 </x> <y> -2.463 </y> <z> 2.192 </z>
+    <charge> 0.4366 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 8 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -3.262 </x> <y> -3.677 </y> <z> 1.695 </z>
+    <charge> 0.1224 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 9 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -2.733 </x> <y> -2.777 </y> <z> 1.375 </z>
+    <charge> 0.1779 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 10 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -3.085 </x> <y> -3.873 </y> <z> 3.067 </z>
+    <charge> -0.62 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 11 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -3.636 </x> <y> -3.163 </y> <z> 3.405 </z>
+    <charge> 0.422 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 12 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -2.76 </x> <y> -4.906 </y> <z> 0.981 </z>
+    <charge> 0.0401 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 13 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -3.113 </x> <y> -5.738 </y> <z> 1.594 </z>
+    <charge> 0.1595 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 14 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -3.2 </x> <y> -4.985 </y> <z> -0.486 </z>
+    <charge> 0.0193 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 15 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -2.702 </x> <y> -4.174 </y> <z> -1.021 </z>
+    <charge> 0.1156 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 16 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -4.636 </x> <y> -4.706 </y> <z> -0.685 </z>
+    <charge> -0.3668 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 17 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -2.888 </x> <y> -6.401 </y> <z> -1.098 </z>
+    <charge> 0.1918 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 18 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -3.642 </x> <y> -7.081 </y> <z> -0.693 </z>
+    <charge> 0.0254 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 19 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -1.922 </x> <y> -6.792 </y> <z> -0.773 </z>
+    <charge> 0.0254 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 20 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -2.856 </x> <y> -6.375 </y> <z> -2.507 </z>
+    <charge> -0.6077 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 21 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -3.676 </x> <y> -6.685 </y> <z> -2.898 </z>
+    <charge> 0.4097 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 22 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -4.938 </x> <y> 1.055 </y> <z> -2.94 </z>
+    <charge> 0.0427 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 23 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -5.256 </x> <y> 1.77 </y> <z> -3.72 </z>
+    <charge> 0.161 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 24 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -3.835 </x> <y> 1.716 </y> <z> -2.151 </z>
+    <charge> -0.3229 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 25 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -6.175 </x> <y> 0.681 </y> <z> -2.002 </z>
+    <charge> 0.1376 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 26 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -6.972 </x> <y> 0.215 </y> <z> -2.586 </z>
+    <charge> 0.065 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 27 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -6.644 </x> <y> 1.85 </y> <z> -1.332 </z>
+    <charge> -0.6346 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 28 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -6.036 </x> <y> 2.084 </y> <z> -0.627 </z>
+    <charge> 0.4366 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 29 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -5.514 </x> <y> -0.249 </y> <z> -0.964 </z>
+    <charge> 0.1224 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 30 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -4.716 </x> <y> 0.226 </y> <z> -0.39 </z>
+    <charge> 0.1779 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 31 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -6.613 </x> <y> -0.709 </y> <z> -0.119 </z>
+    <charge> -0.62 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 32 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -7.124 </x> <y> 0.042 </y> <z> 0.192 </z>
+    <charge> 0.422 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 33 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -4.946 </x> <y> -1.524 </y> <z> -1.588 </z>
+    <charge> 0.0401 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 34 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -5.792 </x> <y> -2.037 </y> <z> -2.051 </z>
+    <charge> 0.1595 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 35 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -3.891 </x> <y> -1.144 </y> <z> -2.636 </z>
+    <charge> 0.0193 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 36 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -3.077 </x> <y> -0.648 </y> <z> -2.104 </z>
+    <charge> 0.1156 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 37 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -4.496 </x> <y> -0.173 </y> <z> -3.605 </z>
+    <charge> -0.3668 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 38 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -3.165 </x> <y> -2.299 </y> <z> -3.376 </z>
+    <charge> 0.1918 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 39 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -3.754 </x> <y> -2.762 </y> <z> -4.171 </z>
+    <charge> 0.0254 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 40 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -2.847 </x> <y> -3.046 </y> <z> -2.645 </z>
+    <charge> 0.0254 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 41 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -1.925 </x> <y> -1.763 </y> <z> -3.984 </z>
+    <charge> -0.6077 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 42 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -2.184 </x> <y> -0.997 </y> <z> -4.501 </z>
+    <charge> 0.4097 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 43 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -2.58 </x> <y> 5.544 </y> <z> -1.035 </z>
+    <charge> 0.0427 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 44 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -2.558 </x> <y> 6.638 </y> <z> -0.877 </z>
+    <charge> 0.161 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 45 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -1.22 </x> <y> 4.977 </y> <z> -0.768 </z>
+    <charge> -0.3229 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 46 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -3.618 </x> <y> 4.844 </y> <z> -0.125 </z>
+    <charge> 0.1376 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 47 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -4.563 </x> <y> 5.381 </y> <z> -0.233 </z>
+    <charge> 0.065 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 48 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -3.153 </x> <y> 5.032 </y> <z> 1.242 </z>
+    <charge> -0.6346 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 49 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -3.295 </x> <y> 5.976 </y> <z> 1.338 </z>
+    <charge> 0.4366 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 50 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -3.76 </x> <y> 3.358 </y> <z> -0.418 </z>
+    <charge> 0.1224 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 51 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -2.876 </x> <y> 2.786 </y> <z> -0.128 </z>
+    <charge> 0.1779 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 52 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -4.911 </x> <y> 2.859 </y> <z> 0.362 </z>
+    <charge> -0.62 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 53 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -4.781 </x> <y> 3.311 </y> <z> 1.199 </z>
+    <charge> 0.422 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 54 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -3.948 </x> <y> 3.167 </y> <z> -1.962 </z>
+    <charge> 0.0401 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 55 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -4.945 </x> <y> 3.491 </y> <z> -2.27 </z>
+    <charge> 0.1595 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 56 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -2.859 </x> <y> 3.906 </y> <z> -2.78 </z>
+    <charge> 0.0193 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 57 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -1.882 </x> <y> 3.512 </y> <z> -2.494 </z>
+    <charge> 0.1156 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 58 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -2.887 </x> <y> 5.36 </y> <z> -2.479 </z>
+    <charge> -0.3668 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 59 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -2.981 </x> <y> 3.61 </y> <z> -4.284 </z>
+    <charge> 0.1918 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 60 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -3.887 </x> <y> 3.998 </y> <z> -4.754 </z>
+    <charge> 0.0254 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 61 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -3.018 </x> <y> 2.52 </y> <z> -4.331 </z>
+    <charge> 0.0254 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 62 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -1.873 </x> <y> 4.042 </y> <z> -5.052 </z>
+    <charge> -0.6077 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 63 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -1.409 </x> <y> 4.798 </y> <z> -4.686 </z>
+    <charge> 0.4097 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 64 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 2.796 </x> <y> 5.658 </y> <z> 0.087 </z>
+    <charge> 0.0427 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 65 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 3.791 </x> <y> 6.077 </y> <z> 0.321 </z>
+    <charge> 0.161 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 66 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 2.895 </x> <y> 4.187 </y> <z> 0.206 </z>
+    <charge> -0.3229 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 67 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 1.82 </x> <y> 6.232 </y> <z> 1.177 </z>
+    <charge> 0.1376 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 68 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 1.915 </x> <y> 7.295 </y> <z> 0.95 </z>
+    <charge> 0.065 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 69 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 2.254 </x> <y> 5.815 </y> <z> 2.403 </z>
+    <charge> -0.6346 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 70 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 2.483 </x> <y> 4.892 </y> <z> 2.271 </z>
+    <charge> 0.4366 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 71 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 0.362 </x> <y> 5.757 </y> <z> 0.97 </z>
+    <charge> 0.1224 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 72 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 0.36 </x> <y> 4.759 </y> <z> 1.413 </z>
+    <charge> 0.1779 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 73 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -0.419 </x> <y> 6.692 </y> <z> 1.745 </z>
+    <charge> -0.62 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 74 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -0.251 </x> <y> 6.51 </y> <z> 2.673 </z>
+    <charge> 0.422 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 75 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -0.063 </x> <y> 5.866 </y> <z> -0.537 </z>
+    <charge> 0.0401 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 76 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -0.306 </x> <y> 6.911 </y> <z> -0.743 </z>
+    <charge> 0.1595 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 77 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 0.992 </x> <y> 5.448 </y> <z> -1.605 </z>
+    <charge> 0.0193 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 78 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 1.138 </x> <y> 4.366 </y> <z> -1.622 </z>
+    <charge> 0.1156 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 79 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 2.34 </x> <y> 6.067 </y> <z> -1.314 </z>
+    <charge> -0.3668 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 80 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 0.572 </x> <y> 5.9 </y> <z> -2.976 </z>
+    <charge> 0.1918 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 81 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 0.702 </x> <y> 6.97 </y> <z> -3.15 </z>
+    <charge> 0.0254 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 82 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -0.467 </x> <y> 5.623 </y> <z> -3.17 </z>
+    <charge> 0.0254 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 83 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 1.435 </x> <y> 5.233 </y> <z> -3.999 </z>
+    <charge> -0.6077 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 84 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 2.321 </x> <y> 5.589 </y> <z> -3.9 </z>
+    <charge> 0.4097 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 85 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 5.652 </x> <y> 0.893 </y> <z> 0.321 </z>
+    <charge> 0.0427 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 86 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 6.607 </x> <y> 0.339 </y> <z> 0.284 </z>
+    <charge> 0.161 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 87 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 4.529 </x> <y> -0.059 </y> <z> 0.603 </z>
+    <charge> -0.3229 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 88 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 5.76 </x> <y> 2.017 </y> <z> 1.316 </z>
+    <charge> 0.1376 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 89 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 6.569 </x> <y> 2.591 </y> <z> 0.858 </z>
+    <charge> 0.065 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 90 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 6.109 </x> <y> 1.635 </y> <z> 2.6 </z>
+    <charge> -0.6346 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 91 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 5.571 </x> <y> 0.879 </y> <z> 2.846 </z>
+    <charge> 0.4366 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 92 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 4.504 </x> <y> 2.8 </y> <z> 1.425 </z>
+    <charge> 0.1224 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 93 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 3.597 </x> <y> 2.247 </y> <z> 1.677 </z>
+    <charge> 0.1779 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 94 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 4.719 </x> <y> 3.877 </y> <z> 2.37 </z>
+    <charge> -0.62 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 95 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 5.405 </x> <y> 3.642 </y> <z> 3 </z>
+    <charge> 0.422 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 96 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 4.178 </x> <y> 3.561 </y> <z> 0.091 </z>
+    <charge> 0.0401 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 97 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 4.982 </x> <y> 4.275 </y> <z> -0.097 </z>
+    <charge> 0.1595 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 98 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 4.074 </x> <y> 2.386 </y> <z> -0.913 </z>
+    <charge> 0.0193 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 99 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 3.186 </x> <y> 1.786 </y> <z> -0.702 </z>
+    <charge> 0.1156 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 100 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 5.414 </x> <y> 1.612 </y> <z> -0.888 </z>
+    <charge> -0.3668 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 101 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 3.863 </x> <y> 2.827 </y> <z> -2.33 </z>
+    <charge> 0.1918 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 102 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 4.819 </x> <y> 3.085 </y> <z> -2.792 </z>
+    <charge> 0.0254 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 103 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 3.178 </x> <y> 3.677 </y> <z> -2.362 </z>
+    <charge> 0.0254 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 104 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 3.212 </x> <y> 1.783 </y> <z> -3.032 </z>
+    <charge> -0.6077 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 105 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 3.355 </x> <y> 1.819 </y> <z> -3.981 </z>
+    <charge> 0.4097 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 106 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 4.083 </x> <y> -3.656 </y> <z> 2.666 </z>
+    <charge> 0.0427 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 107 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 4.106 </x> <y> -4.567 </y> <z> 3.29 </z>
+    <charge> 0.161 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 108 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 2.749 </x> <y> -3.587 </y> <z> 1.902 </z>
+    <charge> -0.3229 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 109 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 4.136 </x> <y> -2.428 </y> <z> 3.585 </z>
+    <charge> 0.1376 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 110 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 5.029 </x> <y> -2.356 </y> <z> 4.209 </z>
+    <charge> 0.065 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 111 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 2.986 </x> <y> -2.436 </y> <z> 4.449 </z>
+    <charge> -0.6346 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 112 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 2.996 </x> <y> -1.799 </y> <z> 5.168 </z>
+    <charge> 0.4366 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 113 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 3.991 </x> <y> -1.179 </y> <z> 2.737 </z>
+    <charge> 0.1224 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 114 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 2.985 </x> <y> -1.117 </y> <z> 2.316 </z>
+    <charge> 0.1779 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 115 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 4.216 </x> <y> 0.004 </y> <z> 3.546 </z>
+    <charge> -0.62 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 116 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 3.589 </x> <y> 0.187 </y> <z> 4.249 </z>
+    <charge> 0.422 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 117 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 5.006 </x> <y> -1.074 </y> <z> 1.57 </z>
+    <charge> 0.0401 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 118 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 5.954 </x> <y> -0.857 </y> <z> 2.067 </z>
+    <charge> 0.1595 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 119 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 5.087 </x> <y> -2.407 </y> <z> 0.787 </z>
+    <charge> 0.0193 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 120 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 4.09 </x> <y> -2.589 </y> <z> 0.38 </z>
+    <charge> 0.1156 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 121 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 5.222 </x> <y> -3.616 </y> <z> 1.695 </z>
+    <charge> -0.3668 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 122 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 6.248 </x> <y> -2.515 </y> <z> -0.237 </z>
+    <charge> 0.1918 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 123 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 6.062 </x> <y> -1.653 </y> <z> -0.881 </z>
+    <charge> 0.0254 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 124 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 6.269 </x> <y> -3.452 </y> <z> -0.798 </z>
+    <charge> 0.0254 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 125 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 7.457 </x> <y> -2.254 </y> <z> 0.572 </z>
+    <charge> -0.6077 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 126 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 8.008 </x> <y> -1.687 </y> <z> 0.027 </z>
+    <charge> 0.4097 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 127 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -0.493 </x> <y> -6.037 </y> <z> 1.335 </z>
+    <charge> 0.0427 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 128 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -1.153 </x> <y> -6.919 </y> <z> 1.25 </z>
+    <charge> 0.161 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 129 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -1.233 </x> <y> -4.802 </y> <z> 1.025 </z>
+    <charge> -0.3229 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 130 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 0.035 </x> <y> -5.943 </y> <z> 2.786 </z>
+    <charge> 0.1376 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 131 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 0.59 </x> <y> -6.87 </y> <z> 2.948 </z>
+    <charge> 0.065 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 132 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -1.036 </x> <y> -5.73 </y> <z> 3.84 </z>
+    <charge> -0.6346 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 133 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -1.573 </x> <y> -4.975 </y> <z> 3.589 </z>
+    <charge> 0.4366 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 134 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 0.963 </x> <y> -4.75 </y> <z> 2.8 </z>
+    <charge> 0.1224 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 135 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 0.449 </x> <y> -3.842 </y> <z> 2.478 </z>
+    <charge> 0.1779 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 136 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 1.447 </x> <y> -4.584 </y> <z> 4.124 </z>
+    <charge> -0.62 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 137 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 2.021 </x> <y> -3.815 </y> <z> 4.163 </z>
+    <charge> 0.422 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 138 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 2.169 </x> <y> -4.916 </y> <z> 1.908 </z>
+    <charge> 0.0401 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 139 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 2.866 </x> <y> -5.677 </y> <z> 2.263 </z>
+    <charge> 0.1595 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 140 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 1.661 </x> <y> -5.156 </y> <z> 0.457 </z>
+    <charge> 0.0193 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 141 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 1.263 </x> <y> -4.181 </y> <z> 0.166 </z>
+    <charge> 0.1156 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 142 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 0.696 </x> <y> -6.256 </y> <z> 0.424 </z>
+    <charge> -0.3668 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 143 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 2.838 </x> <y> -5.638 </y> <z> -0.464 </z>
+    <charge> 0.1918 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 144 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 2.866 </x> <y> -6.72 </y> <z> -0.319 </z>
+    <charge> 0.0254 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 145 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 3.858 </x> <y> -5.304 </y> <z> -0.263 </z>
+    <charge> 0.0254 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 146 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 2.391 </x> <y> -5.267 </y> <z> -1.75 </z>
+    <charge> -0.6077 </charge>
+  </point>
+  <point>
+    <residue> MGO </residue>
+    <number> 147 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 1.501 </x> <y> -5.618 </y> <z> -1.834 </z>
+    <charge> 0.4097 </charge>
+  </point>
+  <total_charge> -8.32667e-16 </total_charge>
+</root>

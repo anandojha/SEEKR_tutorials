@@ -1,0 +1,63 @@
+<!-- "charge" is actual charge squared -->
+<roottag>
+  <point>
+    <x> 0.269 </x> <y> -2.331 </y> <z> 0.885 </z>
+    <charge> 0.185072 </charge>
+    <actual_charge> 0.4302 </actual_charge>
+  </point>
+  <point>
+    <x> 0.207 </x> <y> -1.396 </y> <z> 1.146 </z>
+    <charge> 0.56265 </charge>
+    <actual_charge> -0.7501 </actual_charge>
+  </point>
+  <point>
+    <x> 1.008 </x> <y> -1.032 </y> <z> -0.777 </z>
+    <charge> 0.00268324 </charge>
+    <actual_charge> -0.0518 </actual_charge>
+  </point>
+  <point>
+    <x> -0.78 </x> <y> -1.13 </y> <z> -0.629 </z>
+    <charge> 0.00268324 </charge>
+    <actual_charge> -0.0518 </actual_charge>
+  </point>
+  <point>
+    <x> 0.145 </x> <y> -0.798 </y> <z> -0.142 </z>
+    <charge> 0.13831 </charge>
+    <actual_charge> 0.3719 </actual_charge>
+  </point>
+  <point>
+    <x> 1.159 </x> <y> 1.209 </y> <z> 0.216 </z>
+    <charge> 0.000121 </charge>
+    <actual_charge> -0.011 </actual_charge>
+  </point>
+  <point>
+    <x> -0.429 </x> <y> 0.994 </y> <z> 0.927 </z>
+    <charge> 0.000121 </charge>
+    <actual_charge> -0.011 </actual_charge>
+  </point>
+  <point>
+    <x> 0.163 </x> <y> 0.789 </y> <z> 0.027 </z>
+    <charge> 0.0338928 </charge>
+    <actual_charge> 0.1841 </actual_charge>
+  </point>
+  <point>
+    <x> 0.077 </x> <y> 1.736 </y> <z> -2.019 </z>
+    <charge> 0.00567009 </charge>
+    <actual_charge> 0.0753 </actual_charge>
+  </point>
+  <point>
+    <x> -0.733 </x> <y> 2.597 </y> <z> -0.716 </z>
+    <charge> 0.00345744 </charge>
+    <actual_charge> 0.0588 </actual_charge>
+  </point>
+  <point>
+    <x> -1.428 </x> <y> 1.221 </y> <z> -1.579 </z>
+    <charge> 0.00345744 </charge>
+    <actual_charge> 0.0588 </actual_charge>
+  </point>
+  <point>
+    <x> -0.513 </x> <y> 1.595 </y> <z> -1.104 </z>
+    <charge> 0.0919909 </charge>
+    <actual_charge> -0.3033 </actual_charge>
+  </point>
+</roottag>

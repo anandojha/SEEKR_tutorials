@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<roottag>
+   <first_state>b_surface</first_state>
+   <reactions>
+      <reaction>
+         <name>10</name>
+         <state_before>b_surface</state_before>
+         <state_after>10</state_after>
+         <criterion>
+            <molecules>
+               <molecule0>receptor receptor</molecule0>
+               <molecule1>ligand ligand</molecule1>
+            </molecules>
+            <n_needed>1</n_needed>
+            <pair>
+               <atoms>3222 19</atoms>
+               <distance>18.0</distance>
+            </pair>
+         </criterion>
+      </reaction>
+   </reactions>
+</roottag>

@@ -1,0 +1,797 @@
+<?xml version="1.0" ?>
+<Model type="instance" class_name="Model" module="seekr2.modules.common_base">
+    <temperature type="float">298.0</temperature>
+    <calculation_type type="str">mmvt</calculation_type>
+    <calculation_settings type="instance" class_name="MMVT_settings" module="seekr2.modules.mmvt_base">
+        <num_production_steps type="int">250000000</num_production_steps>
+        <energy_reporter_interval type="int">2500000</energy_reporter_interval>
+        <trajectory_reporter_interval type="int">2500000</trajectory_reporter_interval>
+        <restart_checkpoint_interval type="int">2500000</restart_checkpoint_interval>
+    </calculation_settings>
+    <anchor_rootdir type="str">.</anchor_rootdir>
+    <num_anchors type="int">12</num_anchors>
+    <num_milestones type="int">11</num_milestones>
+    <openmm_settings type="instance" class_name="Openmm_settings" module="seekr2.modules.common_base">
+        <nonbonded_method type="str">PME</nonbonded_method>
+        <nonbonded_cutoff type="float">0.9</nonbonded_cutoff>
+        <constraints type="str">HBonds</constraints>
+        <hydrogenMass/>
+        <rigidWater type="bool">True</rigidWater>
+        <langevin_integrator type="instance" class_name="Langevin_integrator_settings" module="seekr2.modules.common_base">
+            <friction_coefficient type="float">1.0</friction_coefficient>
+            <target_temperature type="float">298.0</target_temperature>
+            <random_seed type="int">0</random_seed>
+            <timestep type="float">0.002</timestep>
+            <rigid_tolerance type="float">1e-06</rigid_tolerance>
+        </langevin_integrator>
+        <barostat/>
+        <cuda_platform_settings type="instance" class_name="Cuda_platform_settings" module="seekr2.modules.common_base">
+            <cuda_device_index type="str">0</cuda_device_index>
+            <cuda_precision type="str">mixed</cuda_precision>
+        </cuda_platform_settings>
+        <reference_platform type="bool">False</reference_platform>
+        <run_minimization type="bool">False</run_minimization>
+        <initial_temperature type="float">298.0</initial_temperature>
+    </openmm_settings>
+    <namd_settings/>
+    <browndye_settings type="instance" class_name="Browndye_settings" module="seekr2.modules.common_base">
+        <browndye_bin_dir type="str"></browndye_bin_dir>
+        <receptor_pqr_filename type="str">trypsin.pqr</receptor_pqr_filename>
+        <ligand_pqr_filename type="str">benzamidine.pqr</ligand_pqr_filename>
+        <apbs_grid_spacing type="float">0.5</apbs_grid_spacing>
+        <n_threads type="int">6</n_threads>
+        <recompute_ligand_electrostatics type="bool">True</recompute_ligand_electrostatics>
+        <debye_length type="str">8.75563</debye_length>
+        <ghost_indices_rec type="list">
+            <ghost_indices_rec_e0 type="int">3222</ghost_indices_rec_e0>
+        </ghost_indices_rec>
+        <ghost_indices_lig type="list">
+            <ghost_indices_lig_e0 type="int">19</ghost_indices_lig_e0>
+        </ghost_indices_lig>
+    </browndye_settings>
+    <k_on_info type="instance" class_name="K_on_info" module="seekr2.modules.common_base">
+        <bd_milestones type="list">
+            <bd_milestones_e0 type="instance" class_name="BD_milestone" module="seekr2.modules.common_base">
+                <index type="int">0</index>
+                <directory type="str">bd_milestone_0</directory>
+                <bd_output_glob type="str">results*.xml</bd_output_glob>
+                <name type="str">bd_milestone_0</name>
+                <outer_milestone type="instance" class_name="Milestone" module="seekr2.modules.common_base">
+                    <index type="int">10</index>
+                    <neighbor_anchor_index type="int">10</neighbor_anchor_index>
+                    <alias_index type="int">1</alias_index>
+                    <cv_index type="int">0</cv_index>
+                    <variables type="dict">
+                        <k type="float">-1.0</k>
+                        <radius type="float">1.8</radius>
+                    </variables>
+                    <is_source_milestone type="bool">False</is_source_milestone>
+                </outer_milestone>
+                <inner_milestone type="instance" class_name="Milestone" module="seekr2.modules.common_base">
+                    <index type="int">9</index>
+                    <neighbor_anchor_index type="int">9</neighbor_anchor_index>
+                    <alias_index type="int">1</alias_index>
+                    <cv_index type="int">0</cv_index>
+                    <variables type="dict">
+                        <k type="float">-1.0</k>
+                        <radius type="float">1.6</radius>
+                    </variables>
+                    <is_source_milestone type="bool">False</is_source_milestone>
+                </inner_milestone>
+                <num_trajectories type="int">1000</num_trajectories>
+                <receptor_indices type="list">
+                    <receptor_indices_e0 type="int">2478</receptor_indices_e0>
+                    <receptor_indices_e1 type="int">2489</receptor_indices_e1>
+                    <receptor_indices_e2 type="int">2499</receptor_indices_e2>
+                    <receptor_indices_e3 type="int">2535</receptor_indices_e3>
+                    <receptor_indices_e4 type="int">2718</receptor_indices_e4>
+                    <receptor_indices_e5 type="int">2745</receptor_indices_e5>
+                    <receptor_indices_e6 type="int">2769</receptor_indices_e6>
+                    <receptor_indices_e7 type="int">2787</receptor_indices_e7>
+                    <receptor_indices_e8 type="int">2794</receptor_indices_e8>
+                    <receptor_indices_e9 type="int">2867</receptor_indices_e9>
+                    <receptor_indices_e10 type="int">2926</receptor_indices_e10>
+                </receptor_indices>
+                <ligand_indices type="list">
+                    <ligand_indices_e0 type="int">0</ligand_indices_e0>
+                    <ligand_indices_e1 type="int">1</ligand_indices_e1>
+                    <ligand_indices_e2 type="int">2</ligand_indices_e2>
+                    <ligand_indices_e3 type="int">3</ligand_indices_e3>
+                    <ligand_indices_e4 type="int">4</ligand_indices_e4>
+                    <ligand_indices_e5 type="int">5</ligand_indices_e5>
+                    <ligand_indices_e6 type="int">6</ligand_indices_e6>
+                    <ligand_indices_e7 type="int">7</ligand_indices_e7>
+                    <ligand_indices_e8 type="int">8</ligand_indices_e8>
+                </ligand_indices>
+                <extracted_directory type="str">extracted_from_b_surface</extracted_directory>
+                <fhpd_directory type="str">first_hitting_point_distribution</fhpd_directory>
+                <max_b_surface_trajs_to_extract type="int">1000</max_b_surface_trajs_to_extract>
+            </bd_milestones_e0>
+        </bd_milestones>
+        <b_surface_directory type="str">b_surface</b_surface_directory>
+        <b_surface_num_trajectories type="int">1000000</b_surface_num_trajectories>
+        <bd_output_glob type="str">results*.xml</bd_output_glob>
+        <ions type="list">
+            <ions_e0 type="instance" class_name="Ion" module="seekr2.modules.common_base">
+                <radius type="float">1.14</radius>
+                <charge type="float">2.0</charge>
+                <conc type="float">0.02</conc>
+            </ions_e0>
+            <ions_e1 type="instance" class_name="Ion" module="seekr2.modules.common_base">
+                <radius type="float">1.67</radius>
+                <charge type="float">-1.0</charge>
+                <conc type="float">0.1</conc>
+            </ions_e1>
+            <ions_e2 type="instance" class_name="Ion" module="seekr2.modules.common_base">
+                <radius type="float">4.0</radius>
+                <charge type="float">1.0</charge>
+                <conc type="float">0.06</conc>
+            </ions_e2>
+        </ions>
+    </k_on_info>
+    <collective_variables type="list">
+        <collective_variables_e0 type="instance" class_name="MMVT_spherical_CV" module="seekr2.modules.mmvt_base">
+            <index type="int">0</index>
+            <group1 type="list">
+                <group1_e0 type="int">2478</group1_e0>
+                <group1_e1 type="int">2489</group1_e1>
+                <group1_e2 type="int">2499</group1_e2>
+                <group1_e3 type="int">2535</group1_e3>
+                <group1_e4 type="int">2718</group1_e4>
+                <group1_e5 type="int">2745</group1_e5>
+                <group1_e6 type="int">2769</group1_e6>
+                <group1_e7 type="int">2787</group1_e7>
+                <group1_e8 type="int">2794</group1_e8>
+                <group1_e9 type="int">2867</group1_e9>
+                <group1_e10 type="int">2926</group1_e10>
+            </group1>
+            <group2 type="list">
+                <group2_e0 type="int">3221</group2_e0>
+                <group2_e1 type="int">3222</group2_e1>
+                <group2_e2 type="int">3223</group2_e2>
+                <group2_e3 type="int">3224</group2_e3>
+                <group2_e4 type="int">3225</group2_e4>
+                <group2_e5 type="int">3226</group2_e5>
+                <group2_e6 type="int">3227</group2_e6>
+                <group2_e7 type="int">3228</group2_e7>
+                <group2_e8 type="int">3229</group2_e8>
+            </group2>
+            <name type="str">mmvt_spherical</name>
+            <openmm_expression type="str">step(k*(distance(g1, g2)^2 - radius^2))</openmm_expression>
+            <num_groups type="int">2</num_groups>
+            <per_dof_variables type="list">
+                <per_dof_variables_e0 type="str">k</per_dof_variables_e0>
+                <per_dof_variables_e1 type="str">radius</per_dof_variables_e1>
+            </per_dof_variables>
+            <global_variables/>
+            <_mygroup_list/>
+            <variable_name type="str">r</variable_name>
+        </collective_variables_e0>
+    </collective_variables>
+    <anchors type="list">
+        <anchors_e0 type="instance" class_name="MMVT_anchor" module="seekr2.modules.mmvt_base">
+            <index type="int">0</index>
+            <directory type="str">anchor_0</directory>
+            <amber_params type="instance" class_name="Amber_params" module="seekr2.modules.common_base">
+                <prmtop_filename type="str">tryp_ben.prmtop</prmtop_filename>
+                <box_vectors type="instance" class_name="Box_vectors" module="seekr2.modules.common_base">
+                    <ax type="float">6.1359</ax>
+                    <ay type="float">0.0</ay>
+                    <az type="float">0.0</az>
+                    <bx type="float">-2.0451767557539475</bx>
+                    <by type="float">5.785025570187548</by>
+                    <bz type="float">0.0</bz>
+                    <cx type="float">-2.0451767557539475</cx>
+                    <cy type="float">-2.8922513504749214</cy>
+                    <cz type="float">5.010130035577895</cz>
+                </box_vectors>
+                <pdb_coordinates_filename type="str">tryp_ben_at0.pdb</pdb_coordinates_filename>
+            </amber_params>
+            <charmm_params/>
+            <forcefield_params/>
+            <production_directory type="str">prod</production_directory>
+            <building_directory type="str">building</building_directory>
+            <md_output_glob type="str">mmvt*.out</md_output_glob>
+            <name type="str">anchor_0</name>
+            <md type="bool">True</md>
+            <endstate type="bool">True</endstate>
+            <bulkstate type="bool">False</bulkstate>
+            <milestones type="list">
+                <milestones_e0 type="instance" class_name="Milestone" module="seekr2.modules.common_base">
+                    <index type="int">0</index>
+                    <neighbor_anchor_index type="int">1</neighbor_anchor_index>
+                    <alias_index type="int">1</alias_index>
+                    <cv_index type="int">0</cv_index>
+                    <variables type="dict">
+                        <k type="float">1.0</k>
+                        <radius type="float">0.1</radius>
+                    </variables>
+                    <is_source_milestone type="bool">False</is_source_milestone>
+                </milestones_e0>
+            </milestones>
+            <variables type="dict">
+                <r_0 type="float">0.05</r_0>
+            </variables>
+        </anchors_e0>
+        <anchors_e1 type="instance" class_name="MMVT_anchor" module="seekr2.modules.mmvt_base">
+            <index type="int">1</index>
+            <directory type="str">anchor_1</directory>
+            <amber_params type="instance" class_name="Amber_params" module="seekr2.modules.common_base">
+                <prmtop_filename type="str">tryp_ben.prmtop</prmtop_filename>
+                <box_vectors type="instance" class_name="Box_vectors" module="seekr2.modules.common_base">
+                    <ax type="float">6.1359</ax>
+                    <ay type="float">0.0</ay>
+                    <az type="float">0.0</az>
+                    <bx type="float">-2.0451767557539475</bx>
+                    <by type="float">5.785025570187548</by>
+                    <bz type="float">0.0</bz>
+                    <cx type="float">-2.0451767557539475</cx>
+                    <cy type="float">-2.8922513504749214</cy>
+                    <cz type="float">5.010130035577895</cz>
+                </box_vectors>
+                <pdb_coordinates_filename type="str">tryp_ben_at1.58.pdb</pdb_coordinates_filename>
+            </amber_params>
+            <charmm_params/>
+            <forcefield_params/>
+            <production_directory type="str">prod</production_directory>
+            <building_directory type="str">building</building_directory>
+            <md_output_glob type="str">mmvt*.out</md_output_glob>
+            <name type="str">anchor_1</name>
+            <md type="bool">True</md>
+            <endstate type="bool">False</endstate>
+            <bulkstate type="bool">False</bulkstate>
+            <milestones type="list">
+                <milestones_e0 type="instance" class_name="Milestone" module="seekr2.modules.common_base">
+                    <index type="int">0</index>
+                    <neighbor_anchor_index type="int">0</neighbor_anchor_index>
+                    <alias_index type="int">1</alias_index>
+                    <cv_index type="int">0</cv_index>
+                    <variables type="dict">
+                        <k type="float">-1.0</k>
+                        <radius type="float">0.1</radius>
+                    </variables>
+                    <is_source_milestone type="bool">False</is_source_milestone>
+                </milestones_e0>
+                <milestones_e1 type="instance" class_name="Milestone" module="seekr2.modules.common_base">
+                    <index type="int">1</index>
+                    <neighbor_anchor_index type="int">2</neighbor_anchor_index>
+                    <alias_index type="int">2</alias_index>
+                    <cv_index type="int">0</cv_index>
+                    <variables type="dict">
+                        <k type="float">1.0</k>
+                        <radius type="float">0.2</radius>
+                    </variables>
+                    <is_source_milestone type="bool">False</is_source_milestone>
+                </milestones_e1>
+            </milestones>
+            <variables type="dict">
+                <r_0 type="float">0.15</r_0>
+            </variables>
+        </anchors_e1>
+        <anchors_e2 type="instance" class_name="MMVT_anchor" module="seekr2.modules.mmvt_base">
+            <index type="int">2</index>
+            <directory type="str">anchor_2</directory>
+            <amber_params type="instance" class_name="Amber_params" module="seekr2.modules.common_base">
+                <prmtop_filename type="str">tryp_ben.prmtop</prmtop_filename>
+                <box_vectors type="instance" class_name="Box_vectors" module="seekr2.modules.common_base">
+                    <ax type="float">6.1359</ax>
+                    <ay type="float">0.0</ay>
+                    <az type="float">0.0</az>
+                    <bx type="float">-2.0451767557539475</bx>
+                    <by type="float">5.785025570187548</by>
+                    <bz type="float">0.0</bz>
+                    <cx type="float">-2.0451767557539475</cx>
+                    <cy type="float">-2.8922513504749214</cy>
+                    <cz type="float">5.010130035577895</cz>
+                </box_vectors>
+                <pdb_coordinates_filename type="str">tryp_ben_at2.76.pdb</pdb_coordinates_filename>
+            </amber_params>
+            <charmm_params/>
+            <forcefield_params/>
+            <production_directory type="str">prod</production_directory>
+            <building_directory type="str">building</building_directory>
+            <md_output_glob type="str">mmvt*.out</md_output_glob>
+            <name type="str">anchor_2</name>
+            <md type="bool">True</md>
+            <endstate type="bool">False</endstate>
+            <bulkstate type="bool">False</bulkstate>
+            <milestones type="list">
+                <milestones_e0 type="instance" class_name="Milestone" module="seekr2.modules.common_base">
+                    <index type="int">1</index>
+                    <neighbor_anchor_index type="int">1</neighbor_anchor_index>
+                    <alias_index type="int">1</alias_index>
+                    <cv_index type="int">0</cv_index>
+                    <variables type="dict">
+                        <k type="float">-1.0</k>
+                        <radius type="float">0.2</radius>
+                    </variables>
+                    <is_source_milestone type="bool">False</is_source_milestone>
+                </milestones_e0>
+                <milestones_e1 type="instance" class_name="Milestone" module="seekr2.modules.common_base">
+                    <index type="int">2</index>
+                    <neighbor_anchor_index type="int">3</neighbor_anchor_index>
+                    <alias_index type="int">2</alias_index>
+                    <cv_index type="int">0</cv_index>
+                    <variables type="dict">
+                        <k type="float">1.0</k>
+                        <radius type="float">0.3</radius>
+                    </variables>
+                    <is_source_milestone type="bool">False</is_source_milestone>
+                </milestones_e1>
+            </milestones>
+            <variables type="dict">
+                <r_0 type="float">0.25</r_0>
+            </variables>
+        </anchors_e2>
+        <anchors_e3 type="instance" class_name="MMVT_anchor" module="seekr2.modules.mmvt_base">
+            <index type="int">3</index>
+            <directory type="str">anchor_3</directory>
+            <amber_params type="instance" class_name="Amber_params" module="seekr2.modules.common_base">
+                <prmtop_filename type="str">tryp_ben.prmtop</prmtop_filename>
+                <box_vectors type="instance" class_name="Box_vectors" module="seekr2.modules.common_base">
+                    <ax type="float">6.1359</ax>
+                    <ay type="float">0.0</ay>
+                    <az type="float">0.0</az>
+                    <bx type="float">-2.0451767557539475</bx>
+                    <by type="float">5.785025570187548</by>
+                    <bz type="float">0.0</bz>
+                    <cx type="float">-2.0451767557539475</cx>
+                    <cy type="float">-2.8922513504749214</cy>
+                    <cz type="float">5.010130035577895</cz>
+                </box_vectors>
+                <pdb_coordinates_filename type="str">tryp_ben_at3.69.pdb</pdb_coordinates_filename>
+            </amber_params>
+            <charmm_params/>
+            <forcefield_params/>
+            <production_directory type="str">prod</production_directory>
+            <building_directory type="str">building</building_directory>
+            <md_output_glob type="str">mmvt*.out</md_output_glob>
+            <name type="str">anchor_3</name>
+            <md type="bool">True</md>
+            <endstate type="bool">False</endstate>
+            <bulkstate type="bool">False</bulkstate>
+            <milestones type="list">
+                <milestones_e0 type="instance" class_name="Milestone" module="seekr2.modules.common_base">
+                    <index type="int">2</index>
+                    <neighbor_anchor_index type="int">2</neighbor_anchor_index>
+                    <alias_index type="int">1</alias_index>
+                    <cv_index type="int">0</cv_index>
+                    <variables type="dict">
+                        <k type="float">-1.0</k>
+                        <radius type="float">0.3</radius>
+                    </variables>
+                    <is_source_milestone type="bool">False</is_source_milestone>
+                </milestones_e0>
+                <milestones_e1 type="instance" class_name="Milestone" module="seekr2.modules.common_base">
+                    <index type="int">3</index>
+                    <neighbor_anchor_index type="int">4</neighbor_anchor_index>
+                    <alias_index type="int">2</alias_index>
+                    <cv_index type="int">0</cv_index>
+                    <variables type="dict">
+                        <k type="float">1.0</k>
+                        <radius type="float">0.4</radius>
+                    </variables>
+                    <is_source_milestone type="bool">False</is_source_milestone>
+                </milestones_e1>
+            </milestones>
+            <variables type="dict">
+                <r_0 type="float">0.35</r_0>
+            </variables>
+        </anchors_e3>
+        <anchors_e4 type="instance" class_name="MMVT_anchor" module="seekr2.modules.mmvt_base">
+            <index type="int">4</index>
+            <directory type="str">anchor_4</directory>
+            <amber_params type="instance" class_name="Amber_params" module="seekr2.modules.common_base">
+                <prmtop_filename type="str">tryp_ben.prmtop</prmtop_filename>
+                <box_vectors type="instance" class_name="Box_vectors" module="seekr2.modules.common_base">
+                    <ax type="float">6.1359</ax>
+                    <ay type="float">0.0</ay>
+                    <az type="float">0.0</az>
+                    <bx type="float">-2.0451767557539475</bx>
+                    <by type="float">5.785025570187548</by>
+                    <bz type="float">0.0</bz>
+                    <cx type="float">-2.0451767557539475</cx>
+                    <cy type="float">-2.8922513504749214</cy>
+                    <cz type="float">5.010130035577895</cz>
+                </box_vectors>
+                <pdb_coordinates_filename type="str">tryp_ben_at4.61.pdb</pdb_coordinates_filename>
+            </amber_params>
+            <charmm_params/>
+            <forcefield_params/>
+            <production_directory type="str">prod</production_directory>
+            <building_directory type="str">building</building_directory>
+            <md_output_glob type="str">mmvt*.out</md_output_glob>
+            <name type="str">anchor_4</name>
+            <md type="bool">True</md>
+            <endstate type="bool">False</endstate>
+            <bulkstate type="bool">False</bulkstate>
+            <milestones type="list">
+                <milestones_e0 type="instance" class_name="Milestone" module="seekr2.modules.common_base">
+                    <index type="int">3</index>
+                    <neighbor_anchor_index type="int">3</neighbor_anchor_index>
+                    <alias_index type="int">1</alias_index>
+                    <cv_index type="int">0</cv_index>
+                    <variables type="dict">
+                        <k type="float">-1.0</k>
+                        <radius type="float">0.4</radius>
+                    </variables>
+                    <is_source_milestone type="bool">False</is_source_milestone>
+                </milestones_e0>
+                <milestones_e1 type="instance" class_name="Milestone" module="seekr2.modules.common_base">
+                    <index type="int">4</index>
+                    <neighbor_anchor_index type="int">5</neighbor_anchor_index>
+                    <alias_index type="int">2</alias_index>
+                    <cv_index type="int">0</cv_index>
+                    <variables type="dict">
+                        <k type="float">1.0</k>
+                        <radius type="float">0.6</radius>
+                    </variables>
+                    <is_source_milestone type="bool">False</is_source_milestone>
+                </milestones_e1>
+            </milestones>
+            <variables type="dict">
+                <r_0 type="float">0.45</r_0>
+            </variables>
+        </anchors_e4>
+        <anchors_e5 type="instance" class_name="MMVT_anchor" module="seekr2.modules.mmvt_base">
+            <index type="int">5</index>
+            <directory type="str">anchor_5</directory>
+            <amber_params type="instance" class_name="Amber_params" module="seekr2.modules.common_base">
+                <prmtop_filename type="str">tryp_ben.prmtop</prmtop_filename>
+                <box_vectors type="instance" class_name="Box_vectors" module="seekr2.modules.common_base">
+                    <ax type="float">6.1359</ax>
+                    <ay type="float">0.0</ay>
+                    <az type="float">0.0</az>
+                    <bx type="float">-2.0451767557539475</bx>
+                    <by type="float">5.785025570187548</by>
+                    <bz type="float">0.0</bz>
+                    <cx type="float">-2.0451767557539475</cx>
+                    <cy type="float">-2.8922513504749214</cy>
+                    <cz type="float">5.010130035577895</cz>
+                </box_vectors>
+                <pdb_coordinates_filename type="str">tryp_ben_at7.20.pdb</pdb_coordinates_filename>
+            </amber_params>
+            <charmm_params/>
+            <forcefield_params/>
+            <production_directory type="str">prod</production_directory>
+            <building_directory type="str">building</building_directory>
+            <md_output_glob type="str">mmvt*.out</md_output_glob>
+            <name type="str">anchor_5</name>
+            <md type="bool">True</md>
+            <endstate type="bool">False</endstate>
+            <bulkstate type="bool">False</bulkstate>
+            <milestones type="list">
+                <milestones_e0 type="instance" class_name="Milestone" module="seekr2.modules.common_base">
+                    <index type="int">4</index>
+                    <neighbor_anchor_index type="int">4</neighbor_anchor_index>
+                    <alias_index type="int">1</alias_index>
+                    <cv_index type="int">0</cv_index>
+                    <variables type="dict">
+                        <k type="float">-1.0</k>
+                        <radius type="float">0.6</radius>
+                    </variables>
+                    <is_source_milestone type="bool">False</is_source_milestone>
+                </milestones_e0>
+                <milestones_e1 type="instance" class_name="Milestone" module="seekr2.modules.common_base">
+                    <index type="int">5</index>
+                    <neighbor_anchor_index type="int">6</neighbor_anchor_index>
+                    <alias_index type="int">2</alias_index>
+                    <cv_index type="int">0</cv_index>
+                    <variables type="dict">
+                        <k type="float">1.0</k>
+                        <radius type="float">0.8</radius>
+                    </variables>
+                    <is_source_milestone type="bool">False</is_source_milestone>
+                </milestones_e1>
+            </milestones>
+            <variables type="dict">
+                <r_0 type="float">0.7</r_0>
+            </variables>
+        </anchors_e5>
+        <anchors_e6 type="instance" class_name="MMVT_anchor" module="seekr2.modules.mmvt_base">
+            <index type="int">6</index>
+            <directory type="str">anchor_6</directory>
+            <amber_params type="instance" class_name="Amber_params" module="seekr2.modules.common_base">
+                <prmtop_filename type="str">tryp_ben.prmtop</prmtop_filename>
+                <box_vectors type="instance" class_name="Box_vectors" module="seekr2.modules.common_base">
+                    <ax type="float">6.1359</ax>
+                    <ay type="float">0.0</ay>
+                    <az type="float">0.0</az>
+                    <bx type="float">-2.0451767557539475</bx>
+                    <by type="float">5.785025570187548</by>
+                    <bz type="float">0.0</bz>
+                    <cx type="float">-2.0451767557539475</cx>
+                    <cy type="float">-2.8922513504749214</cy>
+                    <cz type="float">5.010130035577895</cz>
+                </box_vectors>
+                <pdb_coordinates_filename type="str">tryp_ben_at9.33.pdb</pdb_coordinates_filename>
+            </amber_params>
+            <charmm_params/>
+            <forcefield_params/>
+            <production_directory type="str">prod</production_directory>
+            <building_directory type="str">building</building_directory>
+            <md_output_glob type="str">mmvt*.out</md_output_glob>
+            <name type="str">anchor_6</name>
+            <md type="bool">True</md>
+            <endstate type="bool">False</endstate>
+            <bulkstate type="bool">False</bulkstate>
+            <milestones type="list">
+                <milestones_e0 type="instance" class_name="Milestone" module="seekr2.modules.common_base">
+                    <index type="int">5</index>
+                    <neighbor_anchor_index type="int">5</neighbor_anchor_index>
+                    <alias_index type="int">1</alias_index>
+                    <cv_index type="int">0</cv_index>
+                    <variables type="dict">
+                        <k type="float">-1.0</k>
+                        <radius type="float">0.8</radius>
+                    </variables>
+                    <is_source_milestone type="bool">False</is_source_milestone>
+                </milestones_e0>
+                <milestones_e1 type="instance" class_name="Milestone" module="seekr2.modules.common_base">
+                    <index type="int">6</index>
+                    <neighbor_anchor_index type="int">7</neighbor_anchor_index>
+                    <alias_index type="int">2</alias_index>
+                    <cv_index type="int">0</cv_index>
+                    <variables type="dict">
+                        <k type="float">1.0</k>
+                        <radius type="float">1.0</radius>
+                    </variables>
+                    <is_source_milestone type="bool">False</is_source_milestone>
+                </milestones_e1>
+            </milestones>
+            <variables type="dict">
+                <r_0 type="float">0.9</r_0>
+            </variables>
+        </anchors_e6>
+        <anchors_e7 type="instance" class_name="MMVT_anchor" module="seekr2.modules.mmvt_base">
+            <index type="int">7</index>
+            <directory type="str">anchor_7</directory>
+            <amber_params type="instance" class_name="Amber_params" module="seekr2.modules.common_base">
+                <prmtop_filename type="str">tryp_ben.prmtop</prmtop_filename>
+                <box_vectors type="instance" class_name="Box_vectors" module="seekr2.modules.common_base">
+                    <ax type="float">6.1359</ax>
+                    <ay type="float">0.0</ay>
+                    <az type="float">0.0</az>
+                    <bx type="float">-2.0451767557539475</bx>
+                    <by type="float">5.785025570187548</by>
+                    <bz type="float">0.0</bz>
+                    <cx type="float">-2.0451767557539475</cx>
+                    <cy type="float">-2.8922513504749214</cy>
+                    <cz type="float">5.010130035577895</cz>
+                </box_vectors>
+                <pdb_coordinates_filename type="str">tryp_ben_at11.06.pdb</pdb_coordinates_filename>
+            </amber_params>
+            <charmm_params/>
+            <forcefield_params/>
+            <production_directory type="str">prod</production_directory>
+            <building_directory type="str">building</building_directory>
+            <md_output_glob type="str">mmvt*.out</md_output_glob>
+            <name type="str">anchor_7</name>
+            <md type="bool">True</md>
+            <endstate type="bool">False</endstate>
+            <bulkstate type="bool">False</bulkstate>
+            <milestones type="list">
+                <milestones_e0 type="instance" class_name="Milestone" module="seekr2.modules.common_base">
+                    <index type="int">6</index>
+                    <neighbor_anchor_index type="int">6</neighbor_anchor_index>
+                    <alias_index type="int">1</alias_index>
+                    <cv_index type="int">0</cv_index>
+                    <variables type="dict">
+                        <k type="float">-1.0</k>
+                        <radius type="float">1.0</radius>
+                    </variables>
+                    <is_source_milestone type="bool">False</is_source_milestone>
+                </milestones_e0>
+                <milestones_e1 type="instance" class_name="Milestone" module="seekr2.modules.common_base">
+                    <index type="int">7</index>
+                    <neighbor_anchor_index type="int">8</neighbor_anchor_index>
+                    <alias_index type="int">2</alias_index>
+                    <cv_index type="int">0</cv_index>
+                    <variables type="dict">
+                        <k type="float">1.0</k>
+                        <radius type="float">1.2</radius>
+                    </variables>
+                    <is_source_milestone type="bool">False</is_source_milestone>
+                </milestones_e1>
+            </milestones>
+            <variables type="dict">
+                <r_0 type="float">1.1</r_0>
+            </variables>
+        </anchors_e7>
+        <anchors_e8 type="instance" class_name="MMVT_anchor" module="seekr2.modules.mmvt_base">
+            <index type="int">8</index>
+            <directory type="str">anchor_8</directory>
+            <amber_params type="instance" class_name="Amber_params" module="seekr2.modules.common_base">
+                <prmtop_filename type="str">tryp_ben.prmtop</prmtop_filename>
+                <box_vectors type="instance" class_name="Box_vectors" module="seekr2.modules.common_base">
+                    <ax type="float">6.1359</ax>
+                    <ay type="float">0.0</ay>
+                    <az type="float">0.0</az>
+                    <bx type="float">-2.0451767557539475</bx>
+                    <by type="float">5.785025570187548</by>
+                    <bz type="float">0.0</bz>
+                    <cx type="float">-2.0451767557539475</cx>
+                    <cy type="float">-2.8922513504749214</cy>
+                    <cz type="float">5.010130035577895</cz>
+                </box_vectors>
+                <pdb_coordinates_filename type="str">tryp_ben_at12.70.pdb</pdb_coordinates_filename>
+            </amber_params>
+            <charmm_params/>
+            <forcefield_params/>
+            <production_directory type="str">prod</production_directory>
+            <building_directory type="str">building</building_directory>
+            <md_output_glob type="str">mmvt*.out</md_output_glob>
+            <name type="str">anchor_8</name>
+            <md type="bool">True</md>
+            <endstate type="bool">False</endstate>
+            <bulkstate type="bool">False</bulkstate>
+            <milestones type="list">
+                <milestones_e0 type="instance" class_name="Milestone" module="seekr2.modules.common_base">
+                    <index type="int">7</index>
+                    <neighbor_anchor_index type="int">7</neighbor_anchor_index>
+                    <alias_index type="int">1</alias_index>
+                    <cv_index type="int">0</cv_index>
+                    <variables type="dict">
+                        <k type="float">-1.0</k>
+                        <radius type="float">1.2</radius>
+                    </variables>
+                    <is_source_milestone type="bool">False</is_source_milestone>
+                </milestones_e0>
+                <milestones_e1 type="instance" class_name="Milestone" module="seekr2.modules.common_base">
+                    <index type="int">8</index>
+                    <neighbor_anchor_index type="int">9</neighbor_anchor_index>
+                    <alias_index type="int">2</alias_index>
+                    <cv_index type="int">0</cv_index>
+                    <variables type="dict">
+                        <k type="float">1.0</k>
+                        <radius type="float">1.4</radius>
+                    </variables>
+                    <is_source_milestone type="bool">False</is_source_milestone>
+                </milestones_e1>
+            </milestones>
+            <variables type="dict">
+                <r_0 type="float">1.3</r_0>
+            </variables>
+        </anchors_e8>
+        <anchors_e9 type="instance" class_name="MMVT_anchor" module="seekr2.modules.mmvt_base">
+            <index type="int">9</index>
+            <directory type="str">anchor_9</directory>
+            <amber_params type="instance" class_name="Amber_params" module="seekr2.modules.common_base">
+                <prmtop_filename type="str">tryp_ben.prmtop</prmtop_filename>
+                <box_vectors type="instance" class_name="Box_vectors" module="seekr2.modules.common_base">
+                    <ax type="float">6.1359</ax>
+                    <ay type="float">0.0</ay>
+                    <az type="float">0.0</az>
+                    <bx type="float">-2.0451767557539475</bx>
+                    <by type="float">5.785025570187548</by>
+                    <bz type="float">0.0</bz>
+                    <cx type="float">-2.0451767557539475</cx>
+                    <cy type="float">-2.8922513504749214</cy>
+                    <cz type="float">5.010130035577895</cz>
+                </box_vectors>
+                <pdb_coordinates_filename type="str">tryp_ben_at14.04.pdb</pdb_coordinates_filename>
+            </amber_params>
+            <charmm_params/>
+            <forcefield_params/>
+            <production_directory type="str">prod</production_directory>
+            <building_directory type="str">building</building_directory>
+            <md_output_glob type="str">mmvt*.out</md_output_glob>
+            <name type="str">anchor_9</name>
+            <md type="bool">True</md>
+            <endstate type="bool">False</endstate>
+            <bulkstate type="bool">False</bulkstate>
+            <milestones type="list">
+                <milestones_e0 type="instance" class_name="Milestone" module="seekr2.modules.common_base">
+                    <index type="int">8</index>
+                    <neighbor_anchor_index type="int">8</neighbor_anchor_index>
+                    <alias_index type="int">1</alias_index>
+                    <cv_index type="int">0</cv_index>
+                    <variables type="dict">
+                        <k type="float">-1.0</k>
+                        <radius type="float">1.4</radius>
+                    </variables>
+                    <is_source_milestone type="bool">False</is_source_milestone>
+                </milestones_e0>
+                <milestones_e1 type="instance" class_name="Milestone" module="seekr2.modules.common_base">
+                    <index type="int">9</index>
+                    <neighbor_anchor_index type="int">10</neighbor_anchor_index>
+                    <alias_index type="int">2</alias_index>
+                    <cv_index type="int">0</cv_index>
+                    <variables type="dict">
+                        <k type="float">1.0</k>
+                        <radius type="float">1.6</radius>
+                    </variables>
+                    <is_source_milestone type="bool">False</is_source_milestone>
+                </milestones_e1>
+            </milestones>
+            <variables type="dict">
+                <r_0 type="float">1.5</r_0>
+            </variables>
+        </anchors_e9>
+        <anchors_e10 type="instance" class_name="MMVT_anchor" module="seekr2.modules.mmvt_base">
+            <index type="int">10</index>
+            <directory type="str">anchor_10</directory>
+            <amber_params type="instance" class_name="Amber_params" module="seekr2.modules.common_base">
+                <prmtop_filename type="str">tryp_ben.prmtop</prmtop_filename>
+                <box_vectors type="instance" class_name="Box_vectors" module="seekr2.modules.common_base">
+                    <ax type="float">6.1359</ax>
+                    <ay type="float">0.0</ay>
+                    <az type="float">0.0</az>
+                    <bx type="float">-2.0451767557539475</bx>
+                    <by type="float">5.785025570187548</by>
+                    <bz type="float">0.0</bz>
+                    <cx type="float">-2.0451767557539475</cx>
+                    <cy type="float">-2.8922513504749214</cy>
+                    <cz type="float">5.010130035577895</cz>
+                </box_vectors>
+                <pdb_coordinates_filename type="str">tryp_ben_at17.00.pdb</pdb_coordinates_filename>
+            </amber_params>
+            <charmm_params/>
+            <forcefield_params/>
+            <production_directory type="str">prod</production_directory>
+            <building_directory type="str">building</building_directory>
+            <md_output_glob type="str">mmvt*.out</md_output_glob>
+            <name type="str">anchor_10</name>
+            <md type="bool">True</md>
+            <endstate type="bool">False</endstate>
+            <bulkstate type="bool">False</bulkstate>
+            <milestones type="list">
+                <milestones_e0 type="instance" class_name="Milestone" module="seekr2.modules.common_base">
+                    <index type="int">9</index>
+                    <neighbor_anchor_index type="int">9</neighbor_anchor_index>
+                    <alias_index type="int">1</alias_index>
+                    <cv_index type="int">0</cv_index>
+                    <variables type="dict">
+                        <k type="float">-1.0</k>
+                        <radius type="float">1.6</radius>
+                    </variables>
+                    <is_source_milestone type="bool">False</is_source_milestone>
+                </milestones_e0>
+                <milestones_e1 type="instance" class_name="Milestone" module="seekr2.modules.common_base">
+                    <index type="int">10</index>
+                    <neighbor_anchor_index type="int">11</neighbor_anchor_index>
+                    <alias_index type="int">2</alias_index>
+                    <cv_index type="int">0</cv_index>
+                    <variables type="dict">
+                        <k type="float">1.0</k>
+                        <radius type="float">1.8</radius>
+                    </variables>
+                    <is_source_milestone type="bool">False</is_source_milestone>
+                </milestones_e1>
+            </milestones>
+            <variables type="dict">
+                <r_0 type="float">1.7</r_0>
+            </variables>
+        </anchors_e10>
+        <anchors_e11 type="instance" class_name="MMVT_anchor" module="seekr2.modules.mmvt_base">
+            <index type="int">11</index>
+            <directory type="str">anchor_11</directory>
+            <amber_params/>
+            <charmm_params/>
+            <forcefield_params/>
+            <production_directory type="str">prod</production_directory>
+            <building_directory type="str">building</building_directory>
+            <md_output_glob type="str">mmvt*.out</md_output_glob>
+            <name type="str">anchor_11</name>
+            <md type="bool">False</md>
+            <endstate type="bool">False</endstate>
+            <bulkstate type="bool">True</bulkstate>
+            <milestones type="list">
+                <milestones_e0 type="instance" class_name="Milestone" module="seekr2.modules.common_base">
+                    <index type="int">10</index>
+                    <neighbor_anchor_index type="int">10</neighbor_anchor_index>
+                    <alias_index type="int">1</alias_index>
+                    <cv_index type="int">0</cv_index>
+                    <variables type="dict">
+                        <k type="float">-1.0</k>
+                        <radius type="float">1.8</radius>
+                    </variables>
+                    <is_source_milestone type="bool">False</is_source_milestone>
+                </milestones_e0>
+            </milestones>
+            <variables type="dict">
+                <r_0 type="float">1.9</r_0>
+            </variables>
+        </anchors_e11>
+    </anchors>
+</Model>

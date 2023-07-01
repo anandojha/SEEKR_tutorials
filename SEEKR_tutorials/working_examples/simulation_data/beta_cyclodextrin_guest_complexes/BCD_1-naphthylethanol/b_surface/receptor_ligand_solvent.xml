@@ -1,0 +1,8 @@
+<top>
+  <dielectric> 78 </dielectric>
+  <debye_length> 1.79769e+308 </debye_length>
+  <relative_viscosity> 1 </relative_viscosity>
+  <kT> 0.983725 </kT>
+  <desolvation_parameter> 1 </desolvation_parameter>
+  <solvent_radius> 1.5 </solvent_radius>
+</top>

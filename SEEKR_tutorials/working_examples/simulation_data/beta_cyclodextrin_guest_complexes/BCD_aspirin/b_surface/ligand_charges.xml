@@ -1,0 +1,150 @@
+<root>
+  <point>
+    <residue> APN </residue>
+    <number> 1 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 0.182 </x> <y> 0.379 </y> <z> 0.901 </z>
+    <charge> -0.2326 </charge>
+  </point>
+  <point>
+    <residue> APN </residue>
+    <number> 2 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -1.074 </x> <y> -0.291 </y> <z> 1.294 </z>
+    <charge> 0.6895 </charge>
+  </point>
+  <point>
+    <residue> APN </residue>
+    <number> 3 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -2.191 </x> <y> -0.112 </y> <z> 0.922 </z>
+    <charge> -0.4797 </charge>
+  </point>
+  <point>
+    <residue> APN </residue>
+    <number> 4 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -0.84 </x> <y> -1.161 </y> <z> 2.296 </z>
+    <charge> -0.5683 </charge>
+  </point>
+  <point>
+    <residue> APN </residue>
+    <number> 5 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -1.753 </x> <y> -1.365 </y> <z> 2.562 </z>
+    <charge> 0.4011 </charge>
+  </point>
+  <point>
+    <residue> APN </residue>
+    <number> 6 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 0.397 </x> <y> 0.675 </y> <z> -0.438 </z>
+    <charge> 0.3749 </charge>
+  </point>
+  <point>
+    <residue> APN </residue>
+    <number> 7 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -0.519 </x> <y> 0.376 </y> <z> -1.37 </z>
+    <charge> -0.4993 </charge>
+  </point>
+  <point>
+    <residue> APN </residue>
+    <number> 8 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -0.785 </x> <y> -0.918 </y> <z> -1.706 </z>
+    <charge> 0.7843 </charge>
+  </point>
+  <point>
+    <residue> APN </residue>
+    <number> 9 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -1.716 </x> <y> -0.985 </y> <z> -2.895 </z>
+    <charge> -0.4128 </charge>
+  </point>
+  <point>
+    <residue> APN </residue>
+    <number> 10 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -2.731 </x> <y> -1.034 </y> <z> -2.483 </z>
+    <charge> 0.1204 </charge>
+  </point>
+  <point>
+    <residue> APN </residue>
+    <number> 11 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -1.421 </x> <y> -1.902 </y> <z> -3.421 </z>
+    <charge> 0.1373 </charge>
+  </point>
+  <point>
+    <residue> APN </residue>
+    <number> 12 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -1.498 </x> <y> -0.126 </y> <z> -3.541 </z>
+    <charge> 0.1334 </charge>
+  </point>
+  <point>
+    <residue> APN </residue>
+    <number> 13 </number>
+    <atom_type> charge-center </atom_type>
+    <x> -0.26 </x> <y> -1.937 </y> <z> -1.19 </z>
+    <charge> -0.499 </charge>
+  </point>
+  <point>
+    <residue> APN </residue>
+    <number> 14 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 1.586 </x> <y> 1.264 </y> <z> -0.844 </z>
+    <charge> -0.2415 </charge>
+  </point>
+  <point>
+    <residue> APN </residue>
+    <number> 15 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 1.728 </x> <y> 1.465 </y> <z> -1.902 </z>
+    <charge> 0.1613 </charge>
+  </point>
+  <point>
+    <residue> APN </residue>
+    <number> 16 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 2.687 </x> <y> 1.504 </y> <z> 0.009 </z>
+    <charge> -0.0185 </charge>
+  </point>
+  <point>
+    <residue> APN </residue>
+    <number> 17 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 3.484 </x> <y> 2.205 </y> <z> -0.221 </z>
+    <charge> 0.0934 </charge>
+  </point>
+  <point>
+    <residue> APN </residue>
+    <number> 18 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 2.415 </x> <y> 1.29 </y> <z> 1.328 </z>
+    <charge> -0.1238 </charge>
+  </point>
+  <point>
+    <residue> APN </residue>
+    <number> 19 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 3.231 </x> <y> 1.587 </y> <z> 1.981 </z>
+    <charge> 0.1042 </charge>
+  </point>
+  <point>
+    <residue> APN </residue>
+    <number> 20 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 1.207 </x> <y> 0.744 </y> <z> 1.819 </z>
+    <charge> -0.0243 </charge>
+  </point>
+  <point>
+    <residue> APN </residue>
+    <number> 21 </number>
+    <atom_type> charge-center </atom_type>
+    <x> 1.086 </x> <y> 0.572 </y> <z> 2.885 </z>
+    <charge> 0.0999 </charge>
+  </point>
+  <total_charge> -0.0001 </total_charge>
+</root>

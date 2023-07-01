@@ -1,0 +1,54 @@
+<reduced_surface>
+  <n-spheres> 18 </n-spheres>
+  <probe_radius> 1.500000 </probe_radius>
+  <trios>
+    <n> 26 </n>
+      <trio>6 5 1 </trio>
+      <trio>11 10 2 </trio>
+      <trio>5 3 1 </trio>
+      <trio>12 3 11 </trio>
+      <trio>18 8 7 </trio>
+      <trio>5 4 3 </trio>
+      <trio>6 4 5 </trio>
+      <trio>14 5 13 </trio>
+      <trio>14 13 6 </trio>
+      <trio>18 7 16 </trio>
+      <trio>13 12 4 </trio>
+      <trio>18 16 8 </trio>
+      <trio>12 5 4 </trio>
+      <trio>4 1 3 </trio>
+      <trio>11 2 3 </trio>
+      <trio>13 5 6 </trio>
+      <trio>13 4 5 </trio>
+      <trio>16 7 8 </trio>
+      <trio>12 4 3 </trio>
+      <trio>11 3 10 </trio>
+      <trio>12 11 4 </trio>
+      <trio>13 5 12 </trio>
+      <trio>6 1 4 </trio>
+      <trio>10 3 2 </trio>
+      <trio>14 6 5 </trio>
+      <trio>11 3 4 </trio>
+  </trios>
+  <spheres>
+    <surface>
+      <n> 15 </n>
+      <indices>
+        18 16 14 13 12 11 10 8 7 6 
+        5 4 3 2 1 
+      </indices>
+    </surface>
+    <danglers>
+      <n> 3 </n>
+      <indices>
+        17 9 15 
+      </indices>
+    </danglers>
+    <insiders>
+      <n> 1 </n>
+      <indices>
+        19 
+      </indices>
+    </insiders>
+  </spheres>
+</reduced_surface>

@@ -1,0 +1,58 @@
+<top>
+  <n_threads> 6 </n_threads>
+  <seed> 11111113 </seed>
+  <output> results1.xml </output>
+  <n_trajectories> 100000 </n_trajectories>
+  <n_trajectories_per_output> 1000 </n_trajectories_per_output>
+  <trajectory_file> traj1_ </trajectory_file>
+  <max_n_steps> 1000000 </max_n_steps>
+  <n_steps_per_output> 1000 </n_steps_per_output>
+  <system>
+    <start_at_site> false </start_at_site>
+    <hydrodynamic_interactions> true </hydrodynamic_interactions>
+    <solvent_file> receptor_ligand_solvent.xml </solvent_file>
+    <reaction_file> rxns.xml </reaction_file>
+    <time_step_tolerances>
+      <minimum_core_dt> 0.2 </minimum_core_dt>
+      <minimum_core_reaction_dt> 0.05 </minimum_core_reaction_dt>
+    </time_step_tolerances>
+    <group>
+      <name> receptor </name>
+      <core>
+        <name> receptor </name>
+        <atoms> receptor_surface_atoms.xml </atoms>
+        <electric_field checked ="true">
+          <grid> receptor0.dx </grid>
+          <grid> receptor1.dx </grid>
+          <grid> receptor2.dx </grid>
+          <multipole_field> receptor_mpole.xml </multipole_field>
+        </electric_field>
+        <hydro_params> receptor_hydro_params.xml </hydro_params>
+        <eff_charges> receptor_cheby.xml </eff_charges>
+        <eff_charges_squared> receptor_squared_cheby.xml </eff_charges_squared>
+        <desolvation_field>
+          <grid> receptor_born.dx </grid>
+        </desolvation_field>
+      </core>
+    </group>
+    <group>
+      <name> ligand </name>
+      <core>
+        <name> ligand </name>
+        <atoms> ligand_surface_atoms.xml </atoms>
+        <electric_field checked ="true">
+          <grid> ligand0.dx </grid>
+          <grid> ligand1.dx </grid>
+          <grid> ligand2.dx </grid>
+          <multipole_field> ligand_mpole.xml </multipole_field>
+        </electric_field>
+        <hydro_params> ligand_hydro_params.xml </hydro_params>
+        <eff_charges> ligand_cheby.xml </eff_charges>
+        <eff_charges_squared> ligand_squared_cheby.xml </eff_charges_squared>
+        <desolvation_field>
+          <grid> ligand_born.dx </grid>
+        </desolvation_field>
+      </core>
+    </group>
+  </system>
+</top>

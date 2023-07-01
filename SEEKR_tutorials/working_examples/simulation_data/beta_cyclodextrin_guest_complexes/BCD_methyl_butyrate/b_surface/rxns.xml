@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<roottag>
+   <first_state>b_surface</first_state>
+   <reactions>
+      <reaction>
+         <name>b_13</name>
+         <state_before>b_surface</state_before>
+         <state_after>13</state_after>
+         <criterion>
+            <molecules>
+               <molecule0>receptor receptor</molecule0>
+               <molecule1>ligand ligand</molecule1>
+            </molecules>
+            <n_needed>1</n_needed>
+            <pair>
+               <atoms>148 18</atoms>
+               <distance>14.0</distance>
+            </pair>
+         </criterion>
+      </reaction>
+      <reaction>
+         <name>13_12</name>
+         <state_before>13</state_before>
+         <state_after>12</state_after>
+         <criterion>
+            <molecules>
+               <molecule0>receptor receptor</molecule0>
+               <molecule1>ligand ligand</molecule1>
+            </molecules>
+            <n_needed>1</n_needed>
+            <pair>
+               <atoms>148 18</atoms>
+               <distance>13.0</distance>
+            </pair>
+         </criterion>
+      </reaction>
+   </reactions>
+</roottag>

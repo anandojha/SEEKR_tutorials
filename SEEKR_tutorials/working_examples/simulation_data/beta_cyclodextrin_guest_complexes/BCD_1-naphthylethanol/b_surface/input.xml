@@ -1,0 +1,70 @@
+<root>
+  <n_threads> 6 </n_threads>
+  <seed> 11111113 </seed>
+  <output> results1.xml </output>
+  <n_trajectories> 100000 </n_trajectories>
+  <n_trajectories_per_output> 1000 </n_trajectories_per_output>
+  <max_n_steps> 1000000 </max_n_steps>
+  <trajectory_file> traj </trajectory_file>
+  <n_steps_per_output> 1000 </n_steps_per_output>
+  <system>  
+    <start_at_site> false </start_at_site>
+    <reaction_file> rxns.xml </reaction_file>
+    <hydrodynamic_interactions> true </hydrodynamic_interactions>
+    <time_step_tolerances>    
+      <minimum_core_dt> 0.2 </minimum_core_dt>
+      <minimum_core_reaction_dt> 0.05 </minimum_core_reaction_dt>
+    </time_step_tolerances>
+    <solvent>    
+      <dielectric> 78.0 </dielectric>
+      <relative_viscosity> 1.0 </relative_viscosity>
+      <kT> 0.983724832214765 </kT>
+      <desolvation_parameter> 1.0 </desolvation_parameter>
+      <ions>      
+        <ion>        
+          <radius> 4.0 </radius>
+          <charge> -2.0 </charge>
+          <conc> 0.0 </conc>
+        </ion>
+        <ion>        
+          <radius> 1.0 </radius>
+          <charge> 2.0 </charge>
+          <conc> 0.0 </conc>
+        </ion>
+      </ions>
+      <debye_length> 1.79769e+308 </debye_length>
+    </solvent>
+    <group>    
+      <name> receptor </name>
+      <core>      
+        <name> receptor </name>
+        <atoms> hostguest_receptor.xml </atoms>
+        <all_in_surface> false </all_in_surface>
+        <is_protein> false </is_protein>
+        <dielectric> 4.0 </dielectric>
+        <grid_spacing> 0.5 </grid_spacing>
+        <electric_field checked="true">        
+          <grid source="make_apbs_inputs"> receptor0.dx </grid>
+          <grid source="make_apbs_inputs"> receptor1.dx </grid>
+          <grid source="make_apbs_inputs"> receptor2.dx </grid>
+        </electric_field>
+      </core>
+    </group>
+    <group>    
+      <name> ligand </name>
+      <core>      
+        <name> ligand </name>
+        <atoms> hostguest_ligand.xml </atoms>
+        <all_in_surface> false </all_in_surface>
+        <is_protein> false </is_protein>
+        <dielectric> 4.0 </dielectric>
+        <grid_spacing> 0.5 </grid_spacing>
+        <electric_field checked="true">        
+          <grid source="make_apbs_inputs"> ligand0.dx </grid>
+          <grid source="make_apbs_inputs"> ligand1.dx </grid>
+          <grid source="make_apbs_inputs"> ligand2.dx </grid>
+        </electric_field>
+      </core>
+    </group>
+  </system>
+</root>
