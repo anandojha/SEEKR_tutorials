@@ -16,12 +16,45 @@ The authors also thank everyone who has helped or will help improve this project
 * Shang Gao (Tutorial contributor)
 
 
-## Installing SEEKR, SEEKR dependencies, and SEEKR tutorials package :
+## Installing SEEKR, SEEKR dependencies, and SEEKR_tutorial package :
 
 Create a new conda environment:
 ```bash
   conda create --name SEEKR python=3.8
 ```
+Activate the conda environment:
+```bash
+  conda activate SEEKR
+```
+Install SEEKR dependencies:
+```bash
+  pip install --upgrade cython
+```
+```bash
+  conda install git
+```
+```bash
+  conda install -c conda-forge ambertools
+```
+```bash
+  conda install numpy
+```
+```bash
+  conda install scipy
+```
+```bash
+  conda install netcdf4
+```
+```bash
+  conda install mpi4py
+```
+```bash
+  conda install swig
+```
+```bash
+  conda install -c conda-forge doxygen
+```
+
 
 
 ### Citing SEEKR2
