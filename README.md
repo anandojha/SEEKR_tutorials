@@ -68,10 +68,10 @@ Install SEEKR:
   git clone https://github.com/seekrcentral/seekr2.git
 ```
 ```bash
-cd seekr2
+  cd seekr2
 ```
 ```bash
-python setup.py install
+  python setup.py install
 ```
 ### Citing SEEKR2
 
