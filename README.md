@@ -56,11 +56,16 @@ Install SEEKR dependencies:
 ```
 
 Install SEEKR-OpenMM plugin:
-
+```bash
+  conda activate SEEKR
+```
 ```bash
   conda install -c conda-forge seekr2_openmm_plugin cudatoolkit=10.2 openmm=7.7
 ```
 Install SEEKR:
+```bash
+  conda activate SEEKR
+```
 ```bash
   cd ~
 ```
@@ -73,6 +78,23 @@ Install SEEKR:
 ```bash
   python setup.py install
 ```
+Install Seekrtools:
+```bash
+  conda activate SEEKR
+```
+```bash
+  cd ~
+```
+```bash
+  git clone https://github.com/seekrcentral/seekrtools.git
+```
+```bash
+  cd seekrtools
+```
+```bash
+  python setup.py install
+```
+
 ### Citing SEEKR2
 
 When using SEEKR2, please cite the following papers:
