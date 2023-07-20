@@ -58,7 +58,7 @@ Install SEEKR dependencies:
 Install SEEKR-OpenMM plugin:
 
 ```bash
-  conda install -c conda-forge seekr2$\_$openmm$\_$plugin cudatoolkit=10.2 openmm=7.7
+  conda install -c conda-forge seekr2_openmm_plugin cudatoolkit=10.2 openmm=7.7
 ```
 Install SEEKR:
 ```bash
