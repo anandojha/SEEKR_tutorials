@@ -94,7 +94,13 @@ Install Seekrtools:
 ```bash
   python setup.py install
 ```
-
+Install SEEKR tutorials:
+```bash
+  cd ~
+```
+```bash
+  git clone https://github.com/anandojha/SEEKR_tutorials.git
+```
 ### Citing SEEKR2
 
 When using SEEKR2, please cite the following papers:
