@@ -15,6 +15,15 @@ The authors also thank everyone who has helped or will help improve this project
 * Rommie Amaro (Principal Investigator)
 * Shang Gao (Tutorial contributor)
 
+
+## Installing SEEKR, SEEKR dependencies, and SEEKR tutorials package :
+
+Create a new conda environment:
+```bash
+  conda create --name SEEKR python=3.8
+```
+
+
 ### Citing SEEKR2
 
 When using SEEKR2, please cite the following papers:
