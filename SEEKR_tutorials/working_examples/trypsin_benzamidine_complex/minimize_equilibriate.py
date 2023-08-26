@@ -6,6 +6,7 @@ import parmed
 import simtk
 import time
 import math
+import sys
 import os
 import re
 
@@ -23,7 +24,7 @@ def get_inpcrd_from_pdb(pdb, top, inpcrd):
     os.system(command)
     
 def minimize_save(temperature, nonbonded_cutoff, time_step, init_prmtop_filename, init_inpcrd_filename, 
-                  init_pdb_filename, final_inpcrd_filename, final_pdb_filename):
+                  init_pdb_filename, final_inpcrd_filename, final_pdb_filename, equilibration_steps):
     prmtop = simtk.openmm.app.amberprmtopfile.AmberPrmtopFile(init_prmtop_filename)
     inpcrd = simtk.openmm.app.amberinpcrdfile.AmberInpcrdFile(init_inpcrd_filename)
     pdb = simtk.openmm.app.PDBFile(init_pdb_filename)
@@ -38,7 +39,16 @@ def minimize_save(temperature, nonbonded_cutoff, time_step, init_prmtop_filename
     simulation.context.setPeriodicBoxVectors(*inpcrd.boxVectors)
     print("Initial energy is :", simulation.context.getState(getEnergy=True).getPotentialEnergy())
     simulation.minimizeEnergy(maxIterations=1000)
-    print("Final minimized energy is :", simulation.context.getState(getEnergy=True).getPotentialEnergy())
+    print("Energy after minimization is :", simulation.context.getState(getEnergy=True).getPotentialEnergy())
+    simulation.context.setVelocitiesToTemperature(temperature * simtk.unit.kelvin)
+    reporter = simtk.openmm.app.StateDataReporter(sys.stdout, equilibration_steps/10, step=True,
+                                                  potentialEnergy=True, kineticEnergy=True, totalEnergy=True, 
+                                                  temperature=True, separator='\t')
+    simulation.reporters.append(reporter)
+    equilibration_time_ns = equilibration_steps / 500000
+    print(f"Running system equilibration for {equilibration_time_ns} ns")
+    simulation.step(equilibration_steps)
+    print("Equilibration finished")
     state = simulation.context.getState(getPositions = True, getVelocities = True, enforcePeriodicBox = True)
     positions = state.getPositions()
     amber_parm = parmed.amber.AmberParm(init_prmtop_filename, init_inpcrd_filename)
@@ -68,8 +78,6 @@ get_inpcrd_from_pdb(pdb="trypsin_benzamidine.pdb", top="trypsin_benzamidine.prmt
 minimize_save(temperature=298.15, nonbonded_cutoff=0.9, time_step=0.002,
               init_prmtop_filename="trypsin_benzamidine.prmtop", init_inpcrd_filename="trypsin_benzamidine.inpcrd",
               init_pdb_filename="trypsin_benzamidine.pdb", final_inpcrd_filename="trypsin_benzamidine_final.inpcrd",
-              final_pdb_filename="trypsin_benzamidine_final.pdb")
+              final_pdb_filename="trypsin_benzamidine_final.pdb", equilibration_steps=50000)
 
 clean_up_files(pdb_filename="trypsin_benzamidine.pdb", final_pdb_filename="trypsin_benzamidine_final.pdb")
-
-
