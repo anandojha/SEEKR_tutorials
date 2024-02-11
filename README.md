@@ -2,7 +2,7 @@ SEEKR_tutorials
 ==============================
 A Suite of Tutorials for the SEEKR (Simulation Enabled Estimation of Kinetic Rates) Multiscale Milestoning Software
 
-This repository contains all the files needed to follow the SEEKR tutorial, "A Suite of Tutorials for the SEEKR (Simulation Enabled Estimation of Kinetic Rates) Multiscale Milestoning Software [Article v1.0]" as published in the "Living Journal of Computational Molecular Science" journal. 
+This repository contains all the files needed to follow the SEEKR tutorial, "A Suite of Tutorials for the SEEKR (Simulation Enabled Estimation of Kinetic Rates) Multiscale Milestoning Software [Article v1.0]" published in the Living Journal of Computational Molecular Science journal. 
 
 Please find the tutorial here:
 
@@ -27,7 +27,7 @@ The authors also thank everyone who has helped or will help improve this project
 * Rommie Amaro (Principal Investigator)
 * Shang Gao (Tutorial contributor)
 
-This repository contains all the files needed to follow the SEEKR tutorial, "A Suite of Tutorials for the SEEKR (Simulation Enabled Estimation of Kinetic Rates) Multiscale Milestoning Software [Article v1.0]" as published in the "Living Journal of Computational Molecular Science" journal. 
+This repository contains all the files needed to follow the SEEKR tutorial, "A Suite of Tutorials for the SEEKR (Simulation Enabled Estimation of Kinetic Rates) Multiscale Milestoning Software [Article v1.0]" published in the Living Journal of Computational Molecular Science journal. 
 
 Please find the tutorial here:
 
