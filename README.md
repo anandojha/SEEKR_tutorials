@@ -14,10 +14,6 @@ Issue: 1
 
 Article Number: 2359
 
-Date Received:  August 31, 2023
-
-Date Accepted: January 27, 2024
-
 ## Overview
 The SEEKR tutorials on GitHub provide a comprehensive guide for utilizing the SEEKR (Simulation-enabled estimation of kinetic rates) software tool. SEEKR is designed to estimate the kinetics and thermodynamics of complex molecular processes, focusing on receptor-ligand binding and unbinding. The tutorials are divided into three sections, covering the preparation, execution, and analysis of molecular dynamics (MD) and Brownian dynamics (BD) simulations using SEEKR. Following the best practices outlined in these tutorials, users can install the SEEKR package effectively, run simulations using MD and BD techniques, and analyze the resulting data. The tutorials highlight the advancements introduced in SEEKR2, the program's latest version. SEEKR2 offers significant improvements in speed and capabilities compared to earlier versions. It now supports the NAMD and OpenMM simulation engines, providing users with increased flexibility in their simulation setups. The BD component has also been upgraded to the Browndye2 engine, enhancing the accuracy and efficiency of simulations. The tutorials demonstrate how to interpret the kinetics and thermodynamics of model host-guest systems, showcasing the power and usability of SEEKR2. By leveraging SEEKR2, researchers can accelerate their comprehension of complex molecular processes and gain valuable insights into crucial biomolecular interactions.
 
@@ -42,10 +38,6 @@ Volume: 5
 Issue: 1
 
 Article Number: 2359
-
-Date Received:  August 31, 2023
-
-Date Accepted: January 27, 2024
 
 ## Installing SEEKR, SEEKR dependencies, and SEEKR_tutorial package :
 
