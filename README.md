@@ -4,12 +4,18 @@ A Suite of Tutorials for the SEEKR (Simulation Enabled Estimation of Kinetic Rat
 
 This repository contains all the files needed to follow the SEEKR tutorial, "A Suite of Tutorials for the SEEKR (Simulation Enabled Estimation of Kinetic Rates) Multiscale Milestoning Software [Article v1.0]" as published in the "Living Journal of Computational Molecular Science" journal. 
 
-Please find the tutorial here: 
+Please find the tutorial here:
+
 DOI: https://doi.org/10.33011/livecoms.5.1.2359
+
 Volume: 5
+
 Issue: 1
+
 Article Number: 2359
+
 Date Received:  August 31, 2023
+
 Date Accepted: January 27, 2024
 
 ## Overview
