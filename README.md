@@ -31,12 +31,21 @@ The authors also thank everyone who has helped or will help improve this project
 * Rommie Amaro (Principal Investigator)
 * Shang Gao (Tutorial contributor)
 
-Please find the 
+This repository contains all the files needed to follow the SEEKR tutorial, "A Suite of Tutorials for the SEEKR (Simulation Enabled Estimation of Kinetic Rates) Multiscale Milestoning Software [Article v1.0]" as published in the "Living Journal of Computational Molecular Science" journal. 
 
+Please find the tutorial here:
 
+DOI: https://doi.org/10.33011/livecoms.5.1.2359
 
-Available here: https://livecomsjournal.org/index.php/livecoms/article/view/v5i1e2359
+Volume: 5
 
+Issue: 1
+
+Article Number: 2359
+
+Date Received:  August 31, 2023
+
+Date Accepted: January 27, 2024
 
 ## Installing SEEKR, SEEKR dependencies, and SEEKR_tutorial package :
 
