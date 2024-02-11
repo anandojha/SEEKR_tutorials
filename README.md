@@ -140,6 +140,8 @@ When using SEEKR2, please cite the following papers:
 
 * Ojha, A. A.; Srivastava, A; Votapka, L.W.; Amaro, R.E.: Selectivity and ranking of tight-binding JAK-STAT inhibitors using Markovian milestoning with Voronoi tessellations. J. Chem. Inf. Mod. 2023 63 (8), 2469-2482. DOI: https://doi.org/10.1021/acs.jcim.2c01589
 
+* Ojha A. A.; Votapka, L.W.; Amaro R.E. QMrebind: incorporating quantum mechanical force field reparameterization at the ligand binding site for improved drug-target kinetics through milestoning simulations. Chemical Science. 2023;14(45):13159-75.
+
 * Votapka, L. W.; Jagger, B. R.; Heyneman, A. L.; Amaro, R. E. SEEKR: Simulation Enabled Estimation of Kinetic Rates, A Computational Tool to Estimate Molecular Kinetics and Its Application to Trypsin–Benzamidine Binding. J. Phys. Chem. B 2017, 121 (15), 3597–3606. https://doi.org/10.1021/acs.jpcb.6b09388. 
 
 * Jagger, B. R.; Ojha, A. A.; Amaro, R. E. Predicting Ligand Binding Kinetics Using a Markovian Milestoning with Voronoi Tessellations Multiscale Approach. J. Chem. Theory Comput. 2020. https://doi.org/10.1021/acs.jctc.0c00495. 
