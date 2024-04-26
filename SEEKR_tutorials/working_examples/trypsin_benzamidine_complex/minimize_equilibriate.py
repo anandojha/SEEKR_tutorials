@@ -26,21 +26,6 @@ def get_inpcrd_from_pdb(pdb, top, inpcrd):
     else:
         print(f"{inpcrd} already exists. Skipping generation.")
         
-"""
-def get_inpcrd_from_pdb(pdb, top, inpcrd):
-    with open("get_inpcrd.cpptraj", "w") as f:
-        f.write("parm " + top + "\n")
-        f.write("trajin " + pdb + "\n")
-        f.write("trajout " + inpcrd[:-6] + "rst" + "\n")
-        f.write("run")
-    command = "cpptraj -i get_inpcrd.cpptraj"
-    os.system(command)
-    command = "mv " + inpcrd[:-6] + "rst" + " " + inpcrd
-    os.system(command)
-    command = "rm -rf get_inpcrd.cpptraj"
-    os.system(command)
-"""
-
 def minimize_save(temperature, nonbonded_cutoff, time_step, init_prmtop_filename, init_inpcrd_filename, 
                   init_pdb_filename, final_inpcrd_filename, final_pdb_filename, equilibration_steps):
     prmtop = simtk.openmm.app.amberprmtopfile.AmberPrmtopFile(init_prmtop_filename)
@@ -75,12 +60,7 @@ def minimize_save(temperature, nonbonded_cutoff, time_step, init_prmtop_filename
     amber_parm.save(final_pdb_filename, overwrite=True)
     amber_parm.save(final_inpcrd_filename, overwrite=True)
 
-def clean_up_files(pdb_filename, final_pdb_filename):
-    # Delete all inpcrd files in the current directory
-    #for filename in os.listdir():
-        #if filename.endswith(".inpcrd"):
-            #os.remove(filename)
-            #print("Deleted", filename)
+def clean_up_files(pdb_filename, final_pdb_filename, inpcrd_filename, final_inpcrd_filename):
     # Delete the original pdb file
     if os.path.exists(pdb_filename):
         os.remove(pdb_filename)
@@ -89,6 +69,10 @@ def clean_up_files(pdb_filename, final_pdb_filename):
     if os.path.exists(final_pdb_filename):
         os.rename(final_pdb_filename, pdb_filename)
         print("Renamed", final_pdb_filename, "to", pdb_filename)
+    # Rename the final inpcrd file to the original inpcrd filename
+    if os.path.exists(final_inpcrd_filename):
+        os.rename(final_inpcrd_filename, inpcrd_filename)
+        print("Renamed", final_inpcrd_filename, "to", inpcrd_filename)
 
 
 get_inpcrd_from_pdb(pdb="trypsin_benzamidine.pdb", top="trypsin_benzamidine.prmtop", inpcrd="trypsin_benzamidine.inpcrd")
@@ -98,4 +82,5 @@ minimize_save(temperature=298.15, nonbonded_cutoff=0.9, time_step=0.002,
               init_pdb_filename="trypsin_benzamidine.pdb", final_inpcrd_filename="trypsin_benzamidine_final.inpcrd",
               final_pdb_filename="trypsin_benzamidine_final.pdb", equilibration_steps=50000)
 
-clean_up_files(pdb_filename="trypsin_benzamidine.pdb", final_pdb_filename="trypsin_benzamidine_final.pdb")
+clean_up_files(pdb_filename="trypsin_benzamidine.pdb", final_pdb_filename="trypsin_benzamidine_final.pdb, 
+               inpcrd_filename="trypsin_benzamidine.inpcrd", final_inpcrd_filename="trypsin_benzamidine_final.inpcrd"")
