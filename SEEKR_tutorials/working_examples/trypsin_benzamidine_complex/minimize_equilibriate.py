@@ -82,5 +82,5 @@ minimize_save(temperature=298.15, nonbonded_cutoff=0.9, time_step=0.002,
               init_pdb_filename="trypsin_benzamidine.pdb", final_inpcrd_filename="trypsin_benzamidine_final.inpcrd",
               final_pdb_filename="trypsin_benzamidine_final.pdb", equilibration_steps=50000)
 
-clean_up_files(pdb_filename="trypsin_benzamidine.pdb", final_pdb_filename="trypsin_benzamidine_final.pdb, 
-               inpcrd_filename="trypsin_benzamidine.inpcrd", final_inpcrd_filename="trypsin_benzamidine_final.inpcrd"")
+clean_up_files(pdb_filename="trypsin_benzamidine.pdb", final_pdb_filename="trypsin_benzamidine_final.pdb", 
+               inpcrd_filename="trypsin_benzamidine.inpcrd", final_inpcrd_filename="trypsin_benzamidine_final.inpcrd")
