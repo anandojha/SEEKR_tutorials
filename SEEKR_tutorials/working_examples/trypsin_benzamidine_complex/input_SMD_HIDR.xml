@@ -8,7 +8,7 @@
     <temperature>298.15</temperature>
     <pressure>1.0</pressure>
     <ensemble>nvt</ensemble>
-    <root_directory>/home/aaojha/working_examples/trypsin_benzamidine_/SEEKR_simulation</root_directory>
+    <root_directory>/home/aaojha/working_examples/trypsin_benzamidine_complex/SEEKR_simulation</root_directory>
     <md_program>openmm</md_program>
     <constraints>HBonds</constraints>
     <rigidWater>True</rigidWater>
