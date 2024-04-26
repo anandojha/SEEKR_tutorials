@@ -1,6 +1,6 @@
 python extract_benzamidine.py 
 
-antechamber -i benzamidine.pdb -fi pdb -bk BEN -o benzamidine.mol22 -fo mol2 -c bcc -nc 1
+antechamber -i benzamidine.pdb -fi pdb -bk BEN -o benzamidine.mol2 -fo mol2 -c bcc -nc 1
 
 parmchk2 -i benzamidine.mol2 -f mol2 -o benzamidine.frcmod
 
