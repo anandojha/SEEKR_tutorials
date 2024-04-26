@@ -11,6 +11,23 @@ import os
 import re
 
 def get_inpcrd_from_pdb(pdb, top, inpcrd):
+    if not os.path.exists(inpcrd):  # Check if the file already exists
+        with open("get_inpcrd.cpptraj", "w") as f:
+            f.write("parm " + top + "\n")
+            f.write("trajin " + pdb + "\n")
+            f.write("trajout " + inpcrd[:-6] + "rst" + "\n")
+            f.write("run")
+        command = "cpptraj -i get_inpcrd.cpptraj"
+        os.system(command)
+        command = "mv " + inpcrd[:-6] + "rst" + " " + inpcrd
+        os.system(command)
+        command = "rm -rf get_inpcrd.cpptraj"
+        os.system(command)
+    else:
+        print(f"{inpcrd} already exists. Skipping generation.")
+        
+"""
+def get_inpcrd_from_pdb(pdb, top, inpcrd):
     with open("get_inpcrd.cpptraj", "w") as f:
         f.write("parm " + top + "\n")
         f.write("trajin " + pdb + "\n")
@@ -22,7 +39,8 @@ def get_inpcrd_from_pdb(pdb, top, inpcrd):
     os.system(command)
     command = "rm -rf get_inpcrd.cpptraj"
     os.system(command)
-    
+"""
+
 def minimize_save(temperature, nonbonded_cutoff, time_step, init_prmtop_filename, init_inpcrd_filename, 
                   init_pdb_filename, final_inpcrd_filename, final_pdb_filename, equilibration_steps):
     prmtop = simtk.openmm.app.amberprmtopfile.AmberPrmtopFile(init_prmtop_filename)
@@ -59,10 +77,10 @@ def minimize_save(temperature, nonbonded_cutoff, time_step, init_prmtop_filename
 
 def clean_up_files(pdb_filename, final_pdb_filename):
     # Delete all inpcrd files in the current directory
-    for filename in os.listdir():
-        if filename.endswith(".inpcrd"):
-            os.remove(filename)
-            print("Deleted", filename)
+    #for filename in os.listdir():
+        #if filename.endswith(".inpcrd"):
+            #os.remove(filename)
+            #print("Deleted", filename)
     # Delete the original pdb file
     if os.path.exists(pdb_filename):
         os.remove(pdb_filename)
