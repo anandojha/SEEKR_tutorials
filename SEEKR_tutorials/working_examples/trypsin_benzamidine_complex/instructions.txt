@@ -8,18 +8,24 @@ tleap -f save_benzamidine_lib.tleap
 
 tleap -f parameterize_trypsin_benzamidine.tleap
 
-rm -rf *ANTECHAMBER* ATOMTYPW.INF *sqm* leap.log benzamidine.frcmod benzamidine.lib benzamidine.mol2 benzamidine.pdb 
+rm *ANTECHAMBER* ATOMTYPE.INF *sqm* leap.log benzamidine.frcmod benzamidine.lib benzamidine.mol2 benzamidine.pdb python create_BD_files.py
+
+python minimize_equilibriate.py
+
+ambpdb -p trypsin_benzamidine.prmtop -c trypsin_benzamidine.inpcrd -pqr > trypsin_benzamidine.pqr
 
 python create_BD_files.py
 
-python ~/seekrtools/seekrtools/scripts/pqr_resid_for_each_atom.py benzamidine.pqr benzamidine.pqr 
+python ~/seekrtools/seekrtools/scripts/pqr_resid_for_each_atom.py benzamidine.pqr benzamidine.pqr
 
-python ~/seekr2/seekr2/prepare.py input_SMD_HIDR.xml 
+python ~/seekr2/seekr2/prepare.py input_SMD_HIDR.xml
 
-python ~/seekrtools/seekrtools/hidr/hidr.py any SEEKR_simulation/model.xml -M SMD -p trypsin_benzamidine.pdb -v 0.1
+python ~/seekrtools/seekrtools/hidr/hidr.py any SEEKR_simulation/model.xml -M SMD -p trypsin_benzamidine.pdb
 
-rm -rf trypsin_benzamidine.inpcrd trypsin_benzamidine.pqr benzamidine.pqr trypsin.pqr
+rm trypsin_benzamidine.inpcrd trypsin.pqr trypsin_benzamidine.pqr benzamidine.pqr
 
-python ~/seekr2/seekr2/run.py any SEEKR_simulation/model.xml
+python ∼/seekr2/seekr2/run.py any SEEKR_simulation/model.xml
 
+python ~/seekr2/seekr2/converge.py any SEEKR_simulation/model.xml -l
 
+python ~/seekr2/seekr2/analyze.py SEEKR_simulation/model.xml
