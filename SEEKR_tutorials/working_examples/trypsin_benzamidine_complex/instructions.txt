@@ -10,8 +10,6 @@ tleap -f parameterize_trypsin_benzamidine.tleap
 
 rm *ANTECHAMBER* ATOMTYPE.INF *sqm* leap.log benzamidine.frcmod benzamidine.lib benzamidine.mol2 benzamidine.pdb 
 
-python create_BD_files.py
-
 python minimize_equilibriate.py
 
 ambpdb -p trypsin_benzamidine.prmtop -c trypsin_benzamidine.inpcrd -pqr > trypsin_benzamidine.pqr
